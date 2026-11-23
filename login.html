@@ -16,8 +16,8 @@
 <section class="panel"><div class="top"><a href="./">← Back to home</a><button class="theme" id="theme">☀️ Light</button></div><h2>Welcome back</h2><p class="sub">Sign in or create your FICTION CLUB account.</p>
 <div class="tabs" role="tablist"><button class="tab active" data-tab="phone">📱 Phone</button><button class="tab" data-tab="email">✉️ Email</button><button class="tab" data-tab="google">G Google</button></div>
 <div class="method active" id="phone"><label class="label" for="mobile">Mobile number</label><input class="field" id="mobile" type="tel" inputmode="numeric" autocomplete="tel" placeholder="+91 98765 43210" maxlength="16"><button class="primary" id="sendOtp">Send verification code →</button><div id="recaptcha-container" style="margin-top:14px"></div><div class="otpbox" id="otpbox"><label class="label" for="otp">Enter 6-digit OTP</label><input class="field" id="otp" inputmode="numeric" maxlength="6" placeholder="6-digit demo code"><button class="primary" id="verifyOtp">Verify code & sign in</button></div><p class="hint">A real SMS verification code will be sent after Firebase is configured. Never share your OTP with anyone.</p></div>
-<div class="method" id="email"><label class="label" for="emailAddress">Email address</label><input class="field" id="emailAddress" type="email" autocomplete="email" placeholder="you@example.com"><button class="primary" id="emailContinue">Continue with email →</button><p class="hint">Create a new account or sign in with an existing email. Secure password / email-link verification will be connected in the real authentication setup.</p></div>
-<div class="method" id="google"><div style="text-align:center;padding:8px 0 3px"><div style="font-size:2.5rem">✦</div><b>Continue with Google</b><p class="hint">Choose an account already signed in on this device. Google account selection appears after Google Identity / Firebase Authentication is configured.</p></div><button class="google" id="googleBtn"><span class="googlemark">G</span> Continue with Google</button></div>
+<div class="method" id="email"><label class="label" for="emailAddress">Email address</label><input class="field" id="emailAddress" type="email" autocomplete="email" placeholder="you@example.com"><label class="label" for="emailPassword">Password</label><input class="field" id="emailPassword" type="password" autocomplete="current-password" minlength="8" placeholder="At least 8 characters"><button class="primary" id="emailContinue">Sign in with email →</button><button class="secondary" id="emailMode" type="button">Create a new account</button><p class="hint">Email/password authentication uses Firebase. New accounts require a valid email and a password of at least 8 characters.</p></div>
+<div class="method" id="google"><div style="text-align:center;padding:8px 0 3px"><div style="font-size:2.5rem">✦</div><b>Continue with Google</b><p class="hint">Choose an account already signed in on this device. Google account selection appears after Google Identity / Firebase Authentication is configured.</p></div><button class="google" id="googleBtn"><span class="googlemark">G</span> Continue with Google</button><p class="hint">Google sign-in opens Google's secure account chooser. Pop-ups must be allowed for this demo domain.</p></div>
 <div class="divider">OR</div><button class="secondary" id="guest">Explore demo without an account</button>
 <div class="notice" id="authNotice"><b>Phone sign-in setup:</b> Firebase Phone Authentication must be enabled and this demo domain must be added to Firebase Authorized domains. Until the Firebase web configuration is added, no SMS will be sent.</div><div class="msg" id="message" role="status"></div><div class="footer">By continuing, you agree to FICTION CLUB's Terms & Privacy Policy (demo placeholders).</div>
 </section></main>
@@ -27,7 +27,7 @@
  let confirmation=null, verifier=null, auth=null;
  function say(t, bad=false){msg.textContent=t;msg.classList.add('show');msg.style.borderColor=bad?'#a84b4b':'';msg.style.color=bad?'#ffaaa4':''}
  function configReady(){const c=window.FIREBASE_CONFIG;return !!(c&&c.apiKey&&c.authDomain&&c.projectId&&c.appId&&!Object.values(c).some(v=>typeof v==='string'&&v.includes('PASTE_')))}
- function init(){if(!configReady()){notice.innerHTML='<b>Firebase configuration required.</b> The secure phone sign-in code is installed, but the demo Firebase web config has not been supplied. No OTP is sent until this is configured.';return false}
+ function init(){if(!configReady()){notice.innerHTML='<b>Firebase configuration required.</b> Phone, email and Google authentication code is installed, but the demo Firebase web config has not been supplied. Sign-in is unavailable until this is configured.';return false}
   try{if(!firebase.apps.length)firebase.initializeApp(window.FIREBASE_CONFIG);auth=firebase.auth();auth.useDeviceLanguage();auth.onAuthStateChanged(user=>{if(user){say('Signed in: '+(user.phoneNumber||'verified Firebase account')+'. Firebase session is active on this browser.');$('otpbox').classList.remove('show');$('sendOtp').textContent='Send another code';notice.innerHTML='<b>Firebase connected.</b> Phone number verified by Firebase.';} });notice.innerHTML='<b>Firebase config loaded.</b> Complete the Firebase Console checklist for this GitHub Pages domain before testing SMS.';return true
   }catch(e){say('Firebase initialization failed: '+e.message,true);return false}
  }
@@ -62,8 +62,25 @@
   catch(e){say('Verification failed: '+(e.code||e.message)+'. Check the code and try again.',true)}
   finally{$('verifyOtp').disabled=false}
  });
- $('emailContinue').addEventListener('click',()=>say('Email login is the next setup task. This button is not enabled yet.',true));
- $('googleBtn').addEventListener('click',()=>say('Google sign-in is the next setup task. This button is not enabled yet.',true));
+ let createEmailAccount=false;
+ $('emailMode').addEventListener('click',()=>{createEmailAccount=!createEmailAccount;$('emailContinue').textContent=createEmailAccount?'Create account →':'Sign in with email →';$('emailMode').textContent=createEmailAccount?'I already have an account':'Create a new account';$('emailPassword').autocomplete=createEmailAccount?'new-password':'current-password';msg.classList.remove('show')});
+ $('emailContinue').addEventListener('click',async()=>{
+  if(!auth&&!init())return;
+  const email=$('emailAddress').value.trim(),password=$('emailPassword').value;
+  if(!/^\\S+@\\S+\\.\\S+$/.test(email)){say('Enter a valid email address.',true);return}
+  if(password.length<8){say('Password must contain at least 8 characters.',true);return}
+  $('emailContinue').disabled=true;
+  try{const result=createEmailAccount?await auth.createUserWithEmailAndPassword(email,password):await auth.signInWithEmailAndPassword(email,password);if(createEmailAccount){try{await result.user.sendEmailVerification();say('Account created. A verification email has been sent to '+email+'. Please verify your email.')}catch(e){say('Account created, but verification email could not be sent: '+(e.code||e.message),true)}}else{say('Signed in successfully as '+result.user.email+'.')}}
+  catch(e){const messages={'auth/email-already-in-use':'This email already has an account. Choose Sign in.','auth/invalid-credential':'Email or password is incorrect.','auth/user-not-found':'No account found. Choose Create a new account.','auth/weak-password':'Choose a stronger password (at least 8 characters).','auth/operation-not-allowed':'Enable Email/Password in Firebase Authentication settings.'};say(messages[e.code]||('Email sign-in failed: '+(e.code||e.message)),true)}
+  finally{$('emailContinue').disabled=false}
+ });
+ $('googleBtn').addEventListener('click',async()=>{
+  if(!auth&&!init())return;
+  $('googleBtn').disabled=true;
+  try{const provider=new firebase.auth.GoogleAuthProvider();provider.setCustomParameters({prompt:'select_account'});const result=await auth.signInWithPopup(provider);say('Signed in successfully with Google as '+(result.user.email||'your Google account')+'.')}
+  catch(e){const messages={'auth/popup-blocked':'Allow pop-ups for this demo site and try again.','auth/popup-closed-by-user':'Google sign-in was cancelled.','auth/operation-not-allowed':'Enable Google in Firebase Authentication sign-in providers.','auth/unauthorized-domain':'Add shafiintj-source.github.io to Firebase Authorized domains.'};say(messages[e.code]||('Google sign-in failed: '+(e.code||e.message)),true)}
+  finally{$('googleBtn').disabled=false}
+ });
  $('guest').addEventListener('click',()=>location.href='./');
  const root=document.documentElement;let light=false;$('theme').addEventListener('click',()=>{light=!light;root.classList.toggle('light',light);$('theme').textContent=light?'🌙 Dark':'☀️ Light'});
  init();
