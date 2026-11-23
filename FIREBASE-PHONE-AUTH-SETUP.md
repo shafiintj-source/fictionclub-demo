@@ -13,7 +13,7 @@ The phone-authentication UI and Firebase Phone Auth client flow are implemented 
    - `storageBucket`
    - `messagingSenderId`
    - `appId`
-4. Go to **Authentication → Sign-in method** and enable **Phone**.
+4. Go to **Authentication → Sign-in method** and enable **Phone**, **Email/Password**, and **Google**. For Email/Password, enable the provider (email verification is sent after account creation). For Google, configure the project support email and save the provider.
 5. In **Authentication → Settings → Authorized domains**, add:
    - `shafiintj-source.github.io`
 6. In Phone provider settings, review the SMS region policy and allow **India (+91)** if the project policy blocks it.
@@ -29,6 +29,13 @@ The phone-authentication UI and Firebase Phone Auth client flow are implemented 
 - Email and Google authentication are intentionally left for the next phase.
 - This is isolated from the production FICTION CLUB website and its Firebase Hosting deployment.
 
+## Authentication providers
+
+- **Phone:** Firebase SMS OTP with reCAPTCHA.
+- **Email:** Create account, sign in, email verification message, and password-reset email.
+- **Google:** Google account chooser using Firebase popup sign-in.
+- All three providers require the same Firebase Web App config and the GitHub Pages domain to be authorized. Email and Google sign-in are not live until their providers are enabled in Firebase Console.
+
 ## Current implementation status
 
 - [x] Firebase Phone Auth client integration
@@ -37,5 +44,6 @@ The phone-authentication UI and Firebase Phone Auth client flow are implemented 
 - [x] OTP confirmation and Firebase session sign-in
 - [x] Clear configuration / setup messaging
 - [ ] Project owner's Firebase Web App config
-- [ ] Enable Phone provider and authorize GitHub Pages domain
-- [ ] Live SMS test and end-to-end verification
+- [ ] Enable Phone, Email/Password and Google providers; authorize GitHub Pages domain
+- [ ] Add project support email for Google provider
+- [ ] Test phone OTP, email registration/login/reset, and Google login end-to-end
