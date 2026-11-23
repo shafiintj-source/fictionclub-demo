@@ -37,12 +37,15 @@
   if(!auth&&!init())return;
   const digits=$('mobile').value.replace(/\D/g,'');
   if(digits.length<10||digits.length>13){say('Enter a valid mobile number including country code, e.g. +91 9876543210.',true);return}
-  const phone=digits.startsWith('91')&&digits.length===12?'+'+digits:digits.startsWith('+')?digits:'+'+digits;
+  const phone=digits.length===10?'+91'+digits:digits.startsWith('91')&&digits.length===12?'+'+digits:'+'+digits;
   $('sendOtp').disabled=true;
   try{
-   resetVerifier();
-   verifier=new firebase.auth.RecaptchaVerifier('recaptcha-container',{size:'normal',callback:()=>{},'expired-callback':()=>say('reCAPTCHA expired. Please verify again.',true)});
-   await verifier.render();
+   if(!verifier){
+    verifier=new firebase.auth.RecaptchaVerifier('recaptcha-container',{size:'normal',callback:()=>say('reCAPTCHA verified. Press “Send verification code” again.',false),'expired-callback':()=>say('reCAPTCHA expired. Please verify again.',true)});
+    await verifier.render();
+    say('Complete the reCAPTCHA check below, then press “Send verification code” again.');
+    return;
+   }
    confirmation=await auth.signInWithPhoneNumber(phone,verifier);
    $('otpbox').classList.add('show');
    say('Verification SMS sent to '+phone+'. Enter the 6-digit code. SMS delivery may take a short time.');
