@@ -1,5 +1,8 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#080d17"><title>Sign in · FICTION CLUB</title>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="./firebase-config.js"></script>
 <style>
 :root{color-scheme:dark;--bg:#070b13;--panel:#101827;--panel2:#172337;--line:#293951;--ink:#f3f7ff;--muted:#9eacc2;--mint:#83e4c4;--gold:#ffd18b;--shadow:0 25px 80px #0008}
 :root.light{color-scheme:light;--bg:#f2f6fb;--panel:#fff;--panel2:#edf2f8;--line:#d8e1ed;--ink:#172338;--muted:#5c6b80;--mint:#087f62;--gold:#8a5a00;--shadow:0 25px 70px #24364b18}
@@ -12,12 +15,54 @@
 <section class="story"><div class="brand">FICTION <span>CLUB</span></div><div><div class="eyebrow">YOUR EVERYDAY DIGITAL SPACE</div><h1>Everything<br>starts here.</h1><p>One simple account for Kerala Pay, offers, services and your FICTION CLUB experience.</p><div class="perks"><div class="perk"><span class="ico">⚡</span><span>Quick access to services and recharges</span></div><div class="perk"><span class="ico">🔐</span><span>Secure sign-in options, built for mobile</span></div><div class="perk"><span class="ico">🌙</span><span>Clean dark interface, easy on the eyes</span></div></div></div><div class="storyfoot">A simpler way to use FICTION CLUB.</div></section>
 <section class="panel"><div class="top"><a href="./">← Back to home</a><button class="theme" id="theme">☀️ Light</button></div><h2>Welcome back</h2><p class="sub">Sign in or create your FICTION CLUB account.</p>
 <div class="tabs" role="tablist"><button class="tab active" data-tab="phone">📱 Phone</button><button class="tab" data-tab="email">✉️ Email</button><button class="tab" data-tab="google">G Google</button></div>
-<div class="method active" id="phone"><label class="label" for="mobile">Mobile number</label><input class="field" id="mobile" type="tel" inputmode="numeric" autocomplete="tel" placeholder="+91 98765 43210" maxlength="16"><button class="primary" id="sendOtp">Continue with OTP →</button><div class="otpbox" id="otpbox"><label class="label" for="otp">Enter 6-digit OTP</label><input class="field" id="otp" inputmode="numeric" maxlength="6" placeholder="6-digit demo code"><button class="primary" id="verifyOtp">Verify & preview login</button></div><p class="hint">Automatic OTP retrieval can be enabled on supported Android devices after SMS provider and app integration. Browser websites cannot silently read every SMS.</p></div>
+<div class="method active" id="phone"><label class="label" for="mobile">Mobile number</label><input class="field" id="mobile" type="tel" inputmode="numeric" autocomplete="tel" placeholder="+91 98765 43210" maxlength="16"><button class="primary" id="sendOtp">Send verification code →</button><div id="recaptcha-container" style="margin-top:14px"></div><div class="otpbox" id="otpbox"><label class="label" for="otp">Enter 6-digit OTP</label><input class="field" id="otp" inputmode="numeric" maxlength="6" placeholder="6-digit demo code"><button class="primary" id="verifyOtp">Verify code & sign in</button></div><p class="hint">A real SMS verification code will be sent after Firebase is configured. Never share your OTP with anyone.</p></div>
 <div class="method" id="email"><label class="label" for="emailAddress">Email address</label><input class="field" id="emailAddress" type="email" autocomplete="email" placeholder="you@example.com"><button class="primary" id="emailContinue">Continue with email →</button><p class="hint">Create a new account or sign in with an existing email. Secure password / email-link verification will be connected in the real authentication setup.</p></div>
 <div class="method" id="google"><div style="text-align:center;padding:8px 0 3px"><div style="font-size:2.5rem">✦</div><b>Continue with Google</b><p class="hint">Choose an account already signed in on this device. Google account selection appears after Google Identity / Firebase Authentication is configured.</p></div><button class="google" id="googleBtn"><span class="googlemark">G</span> Continue with Google</button></div>
 <div class="divider">OR</div><button class="secondary" id="guest">Explore demo without an account</button>
-<div class="notice"><b>Demo preview only.</b> No real OTP is sent, no Google account is accessed, and no password or personal login credential is collected or stored. This page is not connected to production authentication.</div><div class="msg" id="message" role="status"></div><div class="footer">By continuing, you agree to FICTION CLUB's Terms & Privacy Policy (demo placeholders).</div>
+<div class="notice" id="authNotice"><b>Phone sign-in setup:</b> Firebase Phone Authentication must be enabled and this demo domain must be added to Firebase Authorized domains. Until the Firebase web configuration is added, no SMS will be sent.</div><div class="msg" id="message" role="status"></div><div class="footer">By continuing, you agree to FICTION CLUB's Terms & Privacy Policy (demo placeholders).</div>
 </section></main>
 <script>
-(()=>{const $=id=>document.getElementById(id),tabs=[...document.querySelectorAll('.tab')],methods=[...document.querySelectorAll('.method')],msg=$('message');function say(t){msg.textContent=t;msg.classList.add('show')}tabs.forEach(b=>b.addEventListener('click',()=>{tabs.forEach(x=>x.classList.toggle('active',x===b));methods.forEach(x=>x.classList.toggle('active',x.id===b.dataset.tab));msg.classList.remove('show')}));$('sendOtp').addEventListener('click',()=>{const n=$('mobile').value.replace(/\D/g,'');if(n.length<10){say('Please enter a valid 10-digit mobile number for this UI preview.');return}$('otpbox').classList.add('show');say('OTP screen preview opened. No SMS was sent. Use demo code 123456 to test the next screen.');$('otp').focus()});$('verifyOtp').addEventListener('click',()=>{if($('otp').value==='123456')say('Demo only: OTP screen flow completed. No account was created and no phone number was verified.');else say('Demo code is 123456. This is not a real OTP.')});$('emailContinue').addEventListener('click',()=>{const v=$('emailAddress').value.trim();if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)){say('Please enter a valid email address to preview this screen.');return}say('Email account flow previewed for '+v+'. No email was sent and no account was created.')});$('googleBtn').addEventListener('click',()=>say('Google sign-in is a UI preview. Configure Firebase Authentication + Google provider + authorized domains to enable real one-tap account selection.'));$('guest').addEventListener('click',()=>location.href='./');const root=document.documentElement;let light=false;$('theme').addEventListener('click',()=>{light=!light;root.classList.toggle('light',light);$('theme').textContent=light?'🌙 Dark':'☀️ Light'});})();
+(()=> {
+ const $=id=>document.getElementById(id), tabs=[...document.querySelectorAll('.tab')], methods=[...document.querySelectorAll('.method')], msg=$('message'), notice=$('authNotice');
+ let confirmation=null, verifier=null, auth=null;
+ function say(t, bad=false){msg.textContent=t;msg.classList.add('show');msg.style.borderColor=bad?'#a84b4b':'';msg.style.color=bad?'#ffaaa4':''}
+ function configReady(){const c=window.FIREBASE_CONFIG;return !!(c&&c.apiKey&&c.authDomain&&c.projectId&&c.appId&&!Object.values(c).some(v=>typeof v==='string'&&v.includes('PASTE_')))}
+ function init(){if(!configReady()){notice.innerHTML='<b>Firebase configuration required.</b> The secure phone sign-in code is installed, but the demo Firebase web config has not been supplied. No OTP is sent until this is configured.';return false}
+  try{if(!firebase.apps.length)firebase.initializeApp(window.FIREBASE_CONFIG);auth=firebase.auth();auth.useDeviceLanguage();auth.onAuthStateChanged(user=>{if(user){say('Signed in: '+(user.phoneNumber||'verified Firebase account')+'. Firebase session is active on this browser.');$('otpbox').classList.remove('show');$('sendOtp').textContent='Send another code';notice.innerHTML='<b>Firebase connected.</b> Phone number verified by Firebase.';} });notice.innerHTML='<b>Firebase config loaded.</b> Complete the Firebase Console checklist for this GitHub Pages domain before testing SMS.';return true
+  }catch(e){say('Firebase initialization failed: '+e.message,true);return false}
+ }
+ tabs.forEach(b=>b.addEventListener('click',()=>{tabs.forEach(x=>x.classList.toggle('active',x===b));methods.forEach(x=>x.classList.toggle('active',x.id===b.dataset.tab));msg.classList.remove('show')}));
+ function resetVerifier(){if(verifier){try{verifier.clear()}catch(e){}}verifier=null;$('recaptcha-container').innerHTML='';}
+ $('sendOtp').addEventListener('click',async()=>{
+  if(!auth&&!init())return;
+  const digits=$('mobile').value.replace(/\D/g,'');
+  if(digits.length<10||digits.length>13){say('Enter a valid mobile number including country code, e.g. +91 9876543210.',true);return}
+  const phone=digits.startsWith('91')&&digits.length===12?'+'+digits:digits.startsWith('+')?digits:'+'+digits;
+  $('sendOtp').disabled=true;
+  try{
+   resetVerifier();
+   verifier=new firebase.auth.RecaptchaVerifier('recaptcha-container',{size:'normal',callback:()=>{},'expired-callback':()=>say('reCAPTCHA expired. Please verify again.',true)});
+   await verifier.render();
+   confirmation=await auth.signInWithPhoneNumber(phone,verifier);
+   $('otpbox').classList.add('show');
+   say('Verification SMS sent to '+phone+'. Enter the 6-digit code. SMS delivery may take a short time.');
+   $('otp').focus();
+  }catch(e){resetVerifier();say('Could not send OTP: '+(e.code||e.message)+'. Check Firebase Phone provider, authorised domain, SMS region and reCAPTCHA.',true)}
+  finally{$('sendOtp').disabled=false}
+ });
+ $('verifyOtp').addEventListener('click',async()=>{
+  const code=$('otp').value.trim();
+  if(!confirmation){say('Send the verification code first.',true);return}
+  if(!/^\d{6}$/.test(code)){say('Enter the 6-digit verification code.',true);return}
+  $('verifyOtp').disabled=true;
+  try{const result=await confirmation.confirm(code);say('Phone verified successfully. Signed in as '+(result.user.phoneNumber||'your phone number')+'.');$('otpbox').classList.remove('show');notice.innerHTML='<b>Phone authentication is active.</b> Your Firebase session is signed in on this browser.'}
+  catch(e){say('Verification failed: '+(e.code||e.message)+'. Check the code and try again.',true)}
+  finally{$('verifyOtp').disabled=false}
+ });
+ $('emailContinue').addEventListener('click',()=>say('Email login is the next setup task. This button is not enabled yet.',true));
+ $('googleBtn').addEventListener('click',()=>say('Google sign-in is the next setup task. This button is not enabled yet.',true));
+ $('guest').addEventListener('click',()=>location.href='./');
+ const root=document.documentElement;let light=false;$('theme').addEventListener('click',()=>{light=!light;root.classList.toggle('light',light);$('theme').textContent=light?'🌙 Dark':'☀️ Light'});
+ init();
+})();
 </script></body></html>
