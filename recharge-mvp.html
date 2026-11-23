@@ -1,49 +1,72 @@
 <!doctype html>
-<html lang="ml"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>FICTION CLUB · Kerala Pay MVP Demo</title>
+<html lang="ml">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>FICTION CLUB | Kerala Recharge & Bill Pay — Demo</title>
 <style>
-:root{color-scheme:dark;--bg:#07111d;--p:#122438;--line:#29445c;--ink:#eff7ff;--muted:#adc0d1;--mint:#78e0c0;--warn:#ffdda0}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#18344a,transparent 45%),var(--bg);color:var(--ink);font:15px/1.55 system-ui}.wrap{max-width:1050px;margin:auto;padding:18px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.brand{font-weight:900;font-size:1.2rem}.brand span{color:var(--mint)}.pill{font-size:.75rem;color:var(--warn);border:1px solid #80643a;padding:5px 10px;border-radius:30px}h1{font-size:clamp(2rem,6vw,3.2rem);line-height:1.1;margin:28px 0 8px}h2{font-size:1.25rem;margin:0 0 12px}.muted{color:var(--muted)}.notice,.panel,.side{border:1px solid var(--line);border-radius:16px;padding:16px;background:var(--p)}.notice{margin:18px 0;background:#2b2318;border-color:#80643a;color:#ffe2b2}.layout{display:grid;grid-template-columns:1.5fr .8fr;gap:14px}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.svc{background:#0b1b2a;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:13px;text-align:left;cursor:pointer;font:inherit;min-height:82px}.svc.active,.svc:hover{border-color:var(--mint);background:#17394a}.svc span{display:block;font-size:1.4rem}.svc small{color:var(--muted)}label{display:block;font-weight:700;margin:12px 0 5px}input,select{width:100%;padding:12px;background:#091725;color:var(--ink);border:1px solid #49627b;border-radius:10px;font:inherit}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.btn{background:var(--mint);color:#06271f;border:0;border-radius:10px;padding:12px 16px;font-weight:800;cursor:pointer;margin:12px 8px 0 0}.alt{background:#29445c;color:var(--ink);border:1px solid #49627b}.bill{margin-top:14px;padding:15px;border-radius:13px;border:1px solid #44836b;background:#102c2a}.hidden{display:none}.amount{font-size:2rem;color:var(--mint);font-weight:900}.tag{display:inline-block;border:1px solid #80643a;color:var(--warn);border-radius:30px;padding:3px 9px;font-size:.73rem}.txn{padding:10px;border:1px solid var(--line);border-radius:10px;margin:8px 0;background:#091725}.foot{margin-top:24px;padding:16px 0;border-top:1px solid var(--line);font-size:.83rem;color:var(--muted)}@media(max-width:740px){.layout{grid-template-columns:1fr}.services{grid-template-columns:repeat(2,1fr)}.row{grid-template-columns:1fr}}
-</style></head><body><main class="wrap">
-<div class="top"><div class="brand">FICTION <span>CLUB</span> · KERALA PAY</div><span class="pill">MVP DEMO · NO REAL PAYMENT</span></div>
-<h1>Recharge & Bill Pay<br>ഒരു ഇടത്ത്.</h1><p class="muted">Mobile · DTH · Electricity · Water · Gas · Broadband · FASTag · Landline</p>
-<div class="notice"><b>പരീക്ഷണ പതിപ്പ്:</b> Bill വിവരങ്ങളും തുകയും sample ആണ്. പണം സ്വീകരിക്കുന്നില്ല; live provider API ബന്ധിപ്പിച്ചിട്ടില്ല. UPI PIN, OTP, ബാങ്ക് രഹസ്യവിവരങ്ങൾ ഇവിടെ നൽകരുത്.</div>
-<div class="layout"><section class="panel"><h2>1. സേവനം തിരഞ്ഞെടുക്കൂ</h2><div class="services" id="services">
-<button class="svc active" data-id="mobile"><span>📱</span><b>Mobile Recharge</b><small>Jio · Airtel · Vi · BSNL</small></button>
-<button class="svc" data-id="dth"><span>📺</span><b>DTH</b><small>Tata Play · Dish · Sun</small></button>
-<button class="svc" data-id="electricity"><span>⚡</span><b>Electricity</b><small>KSEB · Other boards</small></button>
-<button class="svc" data-id="water"><span>💧</span><b>Water</b><small>KWA</small></button>
-<button class="svc" data-id="gas"><span>🔥</span><b>LPG Gas</b><small>Indane · Bharat · HP</small></button>
-<button class="svc" data-id="broadband"><span>🌐</span><b>Broadband</b><small>JioFiber · Airtel · BSNL</small></button>
-<button class="svc" data-id="fastag"><span>🚘</span><b>FASTag</b><small>Bank / tag ID</small></button>
-<button class="svc" data-id="landline"><span>☎️</span><b>Landline</b><small>BSNL · Airtel · Jio</small></button>
-<button class="svc" data-id="other"><span>🧾</span><b>Other Bills</b><small>More providers later</small></button></div>
-<hr style="border:0;border-top:1px solid var(--line);margin:20px 0"><h2>2. Customer details</h2>
-<div class="row"><div><label for="operator">Operator / Provider</label><select id="operator"></select></div><div><label for="state">State</label><select id="state"><option>Kerala</option><option>Other (demo)</option></select></div></div>
-<label id="idLabel" for="customer">Mobile number</label><input id="customer" placeholder="10-digit mobile number" inputmode="numeric" maxlength="15">
-<div class="row" id="mobileFields"><div><label for="circle">Circle</label><select id="circle"><option>Kerala</option><option>Other</option></select></div><div><label for="plan">Recharge amount</label><select id="plan"><option value="199">₹199 · Sample</option><option value="299">₹299 · Sample</option><option value="399">₹399 · Sample</option><option value="599">₹599 · Sample</option></select></div></div>
-<button class="btn" id="fetch">Fetch sample bill / continue</button><button class="btn alt" id="reset">Reset</button>
-<div id="bill" class="bill hidden"><span class="tag">SAMPLE DATA · NOT LIVE</span><h3 id="billTitle">Bill details</h3><p class="muted" id="billDesc"></p><div class="amount" id="amount">₹0</div><button class="btn" id="continue">Continue to demo payment</button></div>
-<div id="payment" class="bill hidden"><span class="tag">SIMULATED CHECKOUT</span><h3>Payment method</h3><p class="muted">UPI / Card buttons ഇവിടെ demo മാത്രമാണ്. യഥാർത്ഥ UPI app തുറക്കില്ല, പണം debit ആകില്ല.</p><button class="btn alt method" data-method="UPI app">Pay by any UPI app</button><button class="btn alt method" data-method="Card / Netbanking">Card / Netbanking</button><p><button class="btn" id="success">Simulate success</button><button class="btn alt" id="failed">Simulate failure</button></p></div><div id="result" class="bill hidden"></div>
-</section><aside><div class="side"><h2>Flow</h2><p>① Service & provider</p><p>② Customer / bill details</p><p>③ Bill enquiry & amount check</p><p>④ UPI / gateway checkout</p><p>⑤ Status, receipt & history</p></div><div class="side" style="margin-top:12px"><h2>Demo transactions</h2><div id="history" class="muted">ഇതുവരെ transaction ഇല്ല.</div><button class="btn alt" id="clear">Clear history</button></div><div class="side" style="margin-top:12px"><h3>Later integrations</h3><p class="muted">Live bill fetch/payment-ന് authorized BBPS partner, payment gateway, KYC/contract, API credentials എന്നിവ ആവശ്യമാണ്. AutoPay പിന്നീടു മാത്രം — user-approved mandate വഴി.</p></div></aside></div>
-<footer class="foot">DEMO ONLY · No collection of money · No live bill retrieval · AutoPay disabled · Production FICTION CLUB website unchanged</footer></main>
+:root{color-scheme:dark;--bg:#08111d;--panel:#111f30;--line:#29415a;--ink:#f2f7ff;--muted:#a9bbcf;--mint:#77e0c0;--gold:#ffd58b;--red:#ff9b9b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 80% 0,#17304a 0,transparent 45%),var(--bg);color:var(--ink);font:15px/1.55 system-ui,sans-serif}.wrap{max-width:1050px;margin:auto;padding:22px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center}.brand{font-weight:900;letter-spacing:.08em;color:var(--mint)}.pill,.tag{border:1px solid #876c3c;color:var(--gold);padding:5px 10px;border-radius:99px;font-size:12px}.hero{padding:30px 0 20px}.hero h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.08;margin:8px 0}.muted{color:var(--muted)}.notice{background:#302716;border:1px solid #82693b;color:#ffe4ae;padding:12px 15px;border-radius:12px;margin:14px 0}.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.service{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:16px;color:var(--ink);text-align:left;cursor:pointer;min-height:110px}.service:hover,.service.active{border-color:var(--mint);box-shadow:0 0 0 1px var(--mint)}.service b{display:block;margin:7px 0}.service span{font-size:13px;color:var(--muted)}.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px;margin:18px 0}.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}label{display:block;color:var(--muted);font-size:13px;margin:12px 0 6px}input,select{width:100%;background:#091624;border:1px solid #39536e;color:var(--ink);padding:13px;border-radius:10px;font:inherit}button{background:var(--mint);color:#062018;border:0;padding:12px 17px;border-radius:10px;font-weight:800;cursor:pointer;margin-top:14px}button.secondary{background:#263d55;color:var(--ink);border:1px solid #49627d}button:disabled{opacity:.4;cursor:not-allowed}.hidden{display:none!important}.amount{font-size:2rem;font-weight:900}.steps{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.step{padding:6px 10px;border-radius:20px;background:#1b3046;color:var(--muted);font-size:12px}.step.on{background:#16483f;color:#a7f2dc}.status{border:1px solid #2e725f;background:#10362e;padding:14px;border-radius:12px;margin-top:12px}.history{width:100%;border-collapse:collapse}.history td,.history th{padding:10px;border-bottom:1px solid var(--line);text-align:left;font-size:13px}.foot{font-size:12px;color:var(--muted);padding:16px 0 35px}a{color:var(--mint)}@media(max-width:700px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.row{grid-template-columns:1fr}.wrap{padding:16px}.panel{padding:16px}}
+</style>
+</head>
+<body><main class="wrap">
+<div class="top"><div class="brand">FICTION CLUB</div><span class="pill">ISOLATED MVP · DEMO ONLY</span></div>
+<header class="hero"><div class="brand">KERALA RECHARGE & BILL PAY</div><h1>എല്ലാ ബില്ലുകളും<br>ഒരിടത്ത്.</h1><p class="muted">Mobile recharge, electricity, water, gas, DTH, broadband — ഒരു ലളിതമായ flow.</p></header>
+<div class="notice"><b>പരീക്ഷണ പതിപ്പ് മാത്രം:</b> ഇവിടെ യഥാർത്ഥ bill fetch അല്ലെങ്കിൽ പണമടയ്ക്കൽ നടക്കുന്നില്ല. Demo bill-ും simulated payment-ും മാത്രമാണ്. UPI PIN / ബാങ്ക് വിവരങ്ങൾ നൽകരുത്.</div>
+<h2>1. Service തിരഞ്ഞെടുക്കുക</h2>
+<div class="grid" id="services">
+<button class="service active" data-type="Mobile Recharge"><span>📱 Mobile</span><b>Prepaid Recharge</b><span>Jio · Airtel · Vi · BSNL</span></button>
+<button class="service" data-type="DTH"><span>📺 DTH</span><b>TV Recharge</b><span>Dish · Tata Play · Airtel</span></button>
+<button class="service" data-type="Electricity"><span>⚡ Electricity</span><b>വൈദ്യുതി ബിൽ</b><span>KSEB · മറ്റ് providers</span></button>
+<button class="service" data-type="Water"><span>💧 Water</span><b>വാട്ടർ ബിൽ</b><span>KWA</span></button>
+<button class="service" data-type="Gas"><span>🔥 Gas</span><b>Gas Bill</b><span>LPG / PNG</span></button>
+<button class="service" data-type="Broadband"><span>🌐 Broadband</span><b>Internet Bill</b><span>ISP bill payment</span></button>
+<button class="service" data-type="FASTag"><span>🚘 FASTag</span><b>FASTag Recharge</b><span>Vehicle tag</span></button>
+<button class="service" data-type="Landline"><span>☎️ Landline</span><b>Landline Bill</b><span>Telephone</span></button>
+</div>
+<section class="panel"><h2>2. Customer details</h2><div class="row"><div><label for="provider">Provider</label><select id="provider"></select></div><div><label for="customer">Mobile / Consumer / Customer ID</label><input id="customer" placeholder="ഉദാ: 9876543210" inputmode="text" autocomplete="off"></div></div><div class="row"><div><label for="amount">Amount (₹)</label><input id="amount" type="number" min="1" max="50000" placeholder="Demo amount"></div><div><label for="phone">Contact mobile (optional)</label><input id="phone" inputmode="numeric" maxlength="10" placeholder="10-digit mobile"></div></div><button id="fetch">Demo bill fetch ചെയ്യുക</button><p class="muted" id="fetchHint">Demo mode: sample details ഉപയോഗിച്ച് മാത്രം test ചെയ്യുക.</p></section>
+<section class="panel hidden" id="bill"><h2>3. Bill summary</h2><div class="steps"><span class="step on">Service</span><span class="step on">Details</span><span class="step on">Bill</span><span class="step">Payment</span></div><p class="muted" id="billDesc"></p><div class="amount" id="billAmount">₹0</div><p class="muted">Demo reference: <span id="ref"></span></p><button id="pay">Simulate payment</button> <button class="secondary" id="edit">Edit details</button></section>
+<section class="panel hidden" id="result"><h2>4. Transaction status</h2><div class="status"><b>✓ Demo payment successful</b><p id="resultText" class="muted"></p><b id="txn"></b></div><button class="secondary" id="new">New payment</button></section>
+<section class="panel"><h2>Transaction history (ഈ browser-ൽ മാത്രം)</h2><div id="empty" class="muted">ഇതുവരെ demo transaction ഇല്ല.</div><div style="overflow:auto"><table class="history hidden" id="history"><thead><tr><th>Reference</th><th>Service</th><th>Amount</th><th>Status</th></tr></thead><tbody></tbody></table></div><button class="secondary" id="clear">Clear demo history</button></section>
+<footer class="foot">FICTION CLUB prototype · No real recharge, BBPS connection, payment gateway, bank debit, or AutoPay is enabled. Production website and AdSense setup are untouched. For real launch: onboard an authorized BBPS/payment partner, complete KYC/contracts, integrate server-side APIs, signed webhooks, reconciliation, refunds and support.</footer>
+</main>
 <script>
-const data={
-mobile:[['Jio','Airtel','Vi','BSNL'],'Mobile number','10-digit mobile number',10,199],
-dth:[['Tata Play','Airtel Digital TV','Dish TV','Sun Direct'],'DTH customer ID','Enter subscriber ID',5,250],
-electricity:[['KSEB Kerala'],'KSEB Consumer Number','Enter consumer number',5,1250],
-water:[['Kerala Water Authority'],'KWA Consumer Number','Enter consumer number',5,480],
-gas:[['Indane','Bharat Gas','HP Gas'],'LPG Consumer Number','Enter LPG consumer number',5,950],
-broadband:[['JioFiber','Airtel Xstream Fiber','BSNL Bharat Fiber'],'Account Number','Enter account number',5,799],
-fastag:[['ICICI FASTag','HDFC FASTag','SBI FASTag'],'FASTag ID / Vehicle Number','Enter tag ID or vehicle number',5,500],
-landline:[['BSNL','Airtel','Jio'],'Telephone / Account Number','Enter telephone number',5,620],
-other:[['Other provider'],'Customer Reference Number','Enter reference number',4,300]
-}
-let kind='mobile',price=199,method='UPI app';const el=id=>document.getElementById(id);function toast(s){el('result').innerHTML='<b>'+s+'</b>';el('result').classList.remove('hidden')}
-function resetFlow(){['bill','payment','result'].forEach(x=>el(x).classList.add('hidden'))}
-function choose(k){kind=k;document.querySelectorAll('.svc').forEach(b=>b.classList.toggle('active',b.dataset.id===k));let d=data[k],mobile=k==='mobile';el('operator').innerHTML=d[0].map(x=>'<option>'+x+'</option>').join('');el('idLabel').textContent=d[1];el('customer').placeholder=d[2];el('customer').dataset.min=d[3];el('customer').value='';el('mobileFields').classList.toggle('hidden',!mobile);resetFlow()}
-document.querySelectorAll('.svc').forEach(b=>b.onclick=()=>choose(b.dataset.id));
-el('fetch').onclick=()=>{let v=el('customer').value.trim(),min=Number(el('customer').dataset.min);if(v.length<min){toast('ശരിയായ customer / reference number നൽകൂ.');return}price=kind==='mobile'?Number(el('plan').value):data[kind][4];el('billTitle').textContent=el('operator').value+' · '+el('idLabel').textContent;el('billDesc').textContent='Reference: '+v+' · '+el('state').value+' · Sample only';el('amount').textContent='₹'+price.toLocaleString('en-IN');el('bill').classList.remove('hidden');el('payment').classList.add('hidden');el('result').classList.add('hidden')};
-el('reset').onclick=()=>{el('customer').value='';resetFlow()};el('continue').onclick=()=>el('payment').classList.remove('hidden');document.querySelectorAll('.method').forEach(b=>b.onclick=()=>{method=b.dataset.method;b.style.borderColor='var(--mint)'});
-function record(status){let id='FC'+Date.now().toString().slice(-8),tx={id,status,amount:price,service:el('operator').value,method,time:new Date().toLocaleString('en-IN')};let a=JSON.parse(localStorage.getItem('fc_demo_tx')||'[]');a.unshift(tx);localStorage.setItem('fc_demo_tx',JSON.stringify(a.slice(0,8)));el('result').innerHTML='<h3>Demo '+status.toLowerCase()+'</h3><p>No real payment was made.</p><b>Transaction ID: '+id+'</b><p>₹'+price+' · '+method+'</p>';el('result').classList.remove('hidden');render()}
-function render(){let a=JSON.parse(localStorage.getItem('fc_demo_tx')||'[]');el('history').innerHTML=a.length?a.map(t=>'<div class="txn"><b>'+t.service+' · ₹'+t.amount+'</b><small>'+t.id+' · '+t.time+'</small><br><span class="tag">'+t.status+' · DEMO</span></div>').join(''):'ഇതുവരെ transaction ഇല്ല.'}
-el('success').onclick=()=>record('SUCCESS');el('failed').onclick=()=>record('FAILED');el('clear').onclick=()=>{localStorage.removeItem('fc_demo_tx');render()};choose('mobile');render();
+const catalog={
+"Mobile Recharge":["Jio","Airtel","Vi","BSNL"],
+"DTH":["Tata Play","Airtel Digital TV","Dish TV","Sun Direct"],
+"Electricity":["KSEB (Demo)","Other Electricity Board"],
+"Water":["Kerala Water Authority (Demo)"],
+"Gas":["Indane (Demo)","Bharat Gas (Demo)","HP Gas (Demo)"],
+"Broadband":["BSNL Broadband (Demo)","Asianet (Demo)","Other ISP"],
+"FASTag":["FASTag (Demo)"],
+"Landline":["BSNL Landline (Demo)","Other Landline"]
+};
+let selected="Mobile Recharge",current=null;
+const $=id=>document.getElementById(id);
+function fillProviders(){ $("provider").innerHTML=catalog[selected].map(x=>'<option>'+x+'</option>').join("");document.querySelectorAll(".service").forEach(b=>b.classList.toggle("active",b.dataset.type===selected));}
+document.querySelectorAll(".service").forEach(b=>b.addEventListener("click",()=>{selected=b.dataset.type;fillProviders();$("bill").classList.add("hidden");$("result").classList.add("hidden");}));
+fillProviders();
+function money(v){return new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:2}).format(v);}
+function makeRef(prefix){return prefix+"-"+Date.now().toString().slice(-8)+"-"+Math.floor(100+Math.random()*900);}
+$("fetch").addEventListener("click",()=>{
+ const customer=$("customer").value.trim(),amount=Number($("amount").value);
+ if(customer.length<4){alert("Customer ID / mobile കുറഞ്ഞത് 4 characters നൽകുക.");return;}
+ if(!Number.isFinite(amount)||amount<1||amount>50000){alert("₹1 മുതൽ ₹50,000 വരെ demo amount നൽകുക.");return;}
+ current={ref:makeRef("FCB"),service:selected,provider:$("provider").value,customer,amount,phone:$("phone").value.trim()};
+ $("billDesc").textContent=current.provider+" · "+current.service+" · Customer: "+customer;
+ $("billAmount").textContent=money(amount);$("ref").textContent=current.ref;
+ $("bill").classList.remove("hidden");$("result").classList.add("hidden");$("bill").scrollIntoView({behavior:"smooth",block:"start"});
+});
+$("edit").onclick=()=>$("bill").classList.add("hidden");
+$("pay").addEventListener("click",()=>{
+ if(!current)return;
+ const txn=makeRef("FCT"),entry={...current,txn,status:"DEMO SUCCESS",date:new Date().toLocaleString("en-IN")};
+ let rows=JSON.parse(localStorage.getItem("fc-demo-history")||"[]");rows.unshift(entry);localStorage.setItem("fc-demo-history",JSON.stringify(rows.slice(0,30)));
+ $("resultText").textContent=current.provider+" · "+current.service+" · "+money(current.amount)+" — simulated only; no money moved.";
+ $("txn").textContent="Transaction ID: "+txn;$("result").classList.remove("hidden");$("bill").classList.add("hidden");renderHistory();$("result").scrollIntoView({behavior:"smooth",block:"start"});
+});
+$("new").onclick=()=>{current=null;$("customer").value="";$("amount").value="";$("bill").classList.add("hidden");$("result").classList.add("hidden");window.scrollTo({top:0,behavior:"smooth"});};
+function renderHistory(){const rows=JSON.parse(localStorage.getItem("fc-demo-history")||"[]");$("empty").classList.toggle("hidden",rows.length>0);$("history").classList.toggle("hidden",!rows.length);$("history").querySelector("tbody").innerHTML=rows.map(r=>'<tr><td>'+r.ref+'</td><td>'+r.service+' / '+r.provider+'</td><td>'+money(r.amount)+'</td><td>'+r.status+'</td></tr>').join("");}
+$("clear").onclick=()=>{localStorage.removeItem("fc-demo-history");renderHistory();};
+renderHistory();
 </script></body></html>
