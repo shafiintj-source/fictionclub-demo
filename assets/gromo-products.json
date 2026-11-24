@@ -1,0 +1,1267 @@
+{
+  "schemaVersion": 1,
+  "title": "FICTION CLUB — GroMo product link and image catalogue",
+  "updatedAt": "2026-11-04",
+  "total": 87,
+  "imageFilesInSource": "Original product images retained; each image associated to its shared referral entry",
+  "uniqueLinksInSource": 87,
+  "notice": "All 87 entries are imported from the supplied GroMo export. Provider verification, Kerala availability, commission, conversion event and website promotion permission are not confirmed.",
+  "categories": [
+    "Savings accounts",
+    "Credit cards",
+    "Investing accounts",
+    "Investment and savings offers",
+    "Other financial/consumer products",
+    "Loans and credit lines",
+    "Telecom",
+    "Home services"
+  ],
+  "products": [
+    {
+      "id": "kt",
+      "name": "Kotak 811 savings account",
+      "category": "Savings accounts",
+      "url": "https://sales.gromo.in/kt/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000002-PHOTO-2026-11-04-16-24-28.jpg"
+      ],
+      "promo": "Open zero balance Kotak 811 savings account in 3 mins:\r\nNo monthly balance maintenance required \r\n💰 Earn upto 4% interest per annum\r\n🎁 Free Virtual Debit Card loaded with offers\r\n💸 Get up to ₹6000 cashback on debit card spends\r\n\r\nUse this link to open an account now.\nApply Now: sales.gromo.in/kt/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 1
+    },
+    {
+      "id": "tk",
+      "name": "Kotak 811 savings account (variant)",
+      "category": "Savings accounts",
+      "url": "https://sales.gromo.in/tk/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000003-PHOTO-2026-11-04-16-24-46.jpg"
+      ],
+      "promo": "Open zero balance Kotak 811 savings account in 3 mins:\r\nNo monthly balance maintenance required \r\n💰 Earn upto 4% interest per annum\r\n🎁 Free Virtual Debit Card loaded with offers\r\n💸 Get up to ₹6000 cashback on debit card spends\r\n\r\nUse this link to open an account now.\nApply Now: sales.gromo.in/tk/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 2
+    },
+    {
+      "id": "vmhd",
+      "name": "Kotak 811 savings account (variant)",
+      "category": "Savings accounts",
+      "url": "https://sales.gromo.in/vmhd/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000004-PHOTO-2026-11-04-16-25-04.jpg"
+      ],
+      "promo": "Open zero balance Kotak 811 savings account in 3 mins:\r\nNo monthly balance maintenance required \r\n💰 Earn upto 4% interest per annum\r\n🎁 Free Virtual Debit Card loaded with offers\r\n💸 Get up to ₹6000 cashback on debit card spends\r\n\r\nUse this link to open an account now.\nApply Now: sales.gromo.in/vmhd/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 3
+    },
+    {
+      "id": "pj",
+      "name": "Jio Payments Bank savings account",
+      "category": "Savings accounts",
+      "url": "https://sales.gromo.in/pj/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000005-PHOTO-2026-11-04-16-25-18.jpg"
+      ],
+      "promo": "🏦 Open Your *Jio Payments Bank* Zero Balance Account in just a Few Clicks! \r\n💯 Zero Balance — No Minimum Balance, No Maintenance Charges\r\n💳 Free Platinum Debit Card for ATM & shopping\r\n📈 Earn up to 6.5%* with Savings Pro\r\n🔒 100% Digital Account Opening\r\nOpen your account today! 🌟\nApply Now: sales.gromo.in/pj/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 4
+    },
+    {
+      "id": "db",
+      "name": "DBS personal account",
+      "category": "Savings accounts",
+      "url": "https://sales.gromo.in/db/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000006-PHOTO-2026-11-04-16-26-01.jpg"
+      ],
+      "promo": "Open your online Personal Account with DBS Bank.\r\n👌🏻 Lower minimum average balance\r\n7️⃣ Earn up to 7%* p.a. interest rate.\r\n🏦 Unlimited withdrawals across all channels\r\n💳 Free Debit Card & Passbook\nApply Now: sales.gromo.in/db/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 5
+    },
+    {
+      "id": "om",
+      "name": "SBM Novio secured credit card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/om/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000007-PHOTO-2026-11-04-17-00-57.jpg"
+      ],
+      "promo": "👉 Apply for the SBM Novio Credit Card in just a few minutes! ⚡💳\r\n🛡️ Guaranteed Approval – Credit Card against Fixed Deposit\r\n💳 Lifetime Free RuPay Credit Card\r\n💰 Start FD from just ₹2,000\r\n📈 Build & Improve Your CIBIL Score\r\n🎁 Exclusive Monthly Merchant Offers:\r\n🎬 BookMyShow – ₹250 off - Transaction value is ₹500 \r\n⛽ Free fuel upto ₹600\r\nUpto ₹250 off on a min cumulative transaction value of ₹500 and a min of 2 tickets. \r\n\r\n🛒 Amazon –upto ₹1000 off - Slab based pricing\r\n🍔 Swiggy – ₹100 OFF every month\r\n🥬 Zepto – upto ₹150 off - ₹50 off x 3 times a month.\r\n₹50 off on ₹499 or above - applicable up to 3 times per customer per month.\r\n\r\n💰 Total Yearly Savings up to ₹23000\r\n🚀 Apply Now & Start Building Your Credit Score Today!\nApply Now: sales.gromo.in/om/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 6
+    },
+    {
+      "id": "hx",
+      "name": "HDFC secured credit card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/hx/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000008-PHOTO-2026-11-04-17-01-17.jpg"
+      ],
+      "promo": "💳 Want a credit card but *no credit history*?\r\nGet HDFC Secured Credit Card against FD! 🚀\r\n\r\n🔥 Benefits:\r\n💰 Credit limit = 90% of FD value (up to ₹8 Lakhs)\r\n📄 No income documents needed\r\n🏦 Build/repair your credit score\r\n🔒 FD continues to earn interest\nApply Now: sales.gromo.in/hx/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 7
+    },
+    {
+      "id": "ho",
+      "name": "IDFC FIRST Hello cashback secured card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ho/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000009-PHOTO-2026-11-04-17-01-27.jpg"
+      ],
+      "promo": "🔥 Introducing *IDFC FIRST Bank Hello* Cashback Secured Credit Card!\r\n💳 Earn up to 5% cashback on your spends\r\n🛡️ FD-backed secured credit card – easy approval\r\n📲 UPI supported via IDFC FIRST Bank app\r\n🎁 Unlock up to ₹18,000 cashback every year\r\nApply now and start earning cashback! 🚀\r\n\nApply Now: sales.gromo.in/ho/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 8
+    },
+    {
+      "id": "wo",
+      "name": "IDFC FIRST WOW! Black card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/wo/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000010-PHOTO-2026-11-04-17-01-37.jpg"
+      ],
+      "promo": "🔥 Introducing *IDFC FIRST WOW! Black Credit Card* 💳\r\n✨ FD-Backed = Assured Approval\r\n🌍 Zero Forex Markup on international spends\r\n✈️ Bonus Rewards on Flights & Hotels\r\n🎁 Welcome Benefits worth ₹5,000+\r\n🛫 1 Domestic Lounge Access / Quarter\r\n📲 UPI-enabled RuPay Credit Card\r\n💳 Instant Virtual Card Activation\nApply Now: sales.gromo.in/wo/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 9
+    },
+    {
+      "id": "od",
+      "name": "Axis Bank MY Zone Visa card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/od/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000011-PHOTO-2026-11-04-17-01-49.jpg"
+      ],
+      "promo": "💳 *Axis Bank MY Zone Visa Credit Card* — entertainment, dining aur savings, ek hi card mein\r\n\r\n🎬 25% cashback on movie tickets (BookMyShow)\r\n🍽️ Up to 20% discount at 4,000+ partner restaurants\r\n⛽ 1% fuel surcharge waiver (up to ₹400/month)\r\n🎁 EDGE reward points on eligible spends\r\n📈 Helps improve your credit score\r\n\r\nIssued by Axis Bank. T&C apply.\nApply Now: sales.gromo.in/od/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 10
+    },
+    {
+      "id": "ea",
+      "name": "IDFC FIRST EARN secured card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ea/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000012-PHOTO-2026-11-04-17-02-09.jpg"
+      ],
+      "promo": "💳 FIRST EARN Secured Credit Card – IDFC FIRST Bank\r\n🔐 FD-backed assured approval\r\n📲 Earn 1% cashback on UPI spends\r\n🎁 Welcome cashback offers available\r\n📈 Build your credit score easily\r\n\r\n👉 Apply now and start earning on UPI! 🚀\nApply Now: sales.gromo.in/ea/MHcptoixKG\nDo's and Don'ts while filling application: DOs\r\n\r\n1. Clearly explain this is a secured credit card issued against FD.\r\n2. Inform customer that ₹499 + GST joining & annual fee is applicable.\r\n3. Explain 1% UPI cashback and cashback cap clearly.\r\n4. Inform about welcome offer timelines and eligibility.\r\n5. Assist till card creation and activation.\r\n\r\nDON’Ts\r\n\r\n1. Do not sell as lifetime free.\r\n2. Do not promise unlimited cashback.\r\n3. Do not commit guaranteed cashback beyond bank terms.\r\n4. Do not submit incorrect KYC or FD details.",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 11
+    },
+    {
+      "id": "ol",
+      "name": "IndianOil Axis Bank secured card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ol/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000013-PHOTO-2026-11-04-17-02-23.jpg"
+      ],
+      "promo": "🔥 *Indian Oil Axis Bank Secured Credit Card* — no CIBIL score, no income proof needed\r\n\r\nFD ke against milta hai, aur FD aapke naam pe hi rehti hai — interest bhi chalta rahega.\r\n\r\n✔ FD-backed card, minimum FD ₹15,000\r\n✔ Credit limit up to 80% of your FD\r\n✔ 20X rewards on IndianOil fuel spends\r\n✔ 5X rewards on online shopping\r\n✔ 1% fuel surcharge waiver\r\n✔ Har mahine CIBIL score build hota hai\nApply Now: sales.gromo.in/ol/MHcptoixKG\nDo's and Don'ts while filling application: Do’s:\r\n\r\n✔ Ensure correct PAN & Aadhaar details\r\n✔ Inform about FD lien marking\r\n✔ Ensure VKYC completed properly\r\n✔ Explain card fees clearly\r\n\r\nDon’ts:\r\n\r\n✘ Do not pitch to existing Axis CC holders\r\n✘ Do not apply for delinquent Axis customers\r\n✘ Do not misinform about FD withdrawal flexibility",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 12
+    },
+    {
+      "id": "ks",
+      "name": "Kotak Securities account",
+      "category": "Investing accounts",
+      "url": "https://sales.gromo.in/ks/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000014-PHOTO-2026-11-04-17-02-46.jpg"
+      ],
+      "promo": "Open your online trading account with Kotak Securities. #GiveNoBucks\r\n💰 Low a/c opening/ subscription fee \r\n0️⃣ Zero/Low brokerage on intra-day trading \r\n1️⃣ Single platform to invest in Stocks, IPOs, Mutual Funds, ETF etc. \nApply Now: sales.gromo.in/ks/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 13
+    },
+    {
+      "id": "lm",
+      "name": "Demat/trading account (provider to verify)",
+      "category": "Investing accounts",
+      "url": "https://sales.gromo.in/lm/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000015-PHOTO-2026-11-04-17-02-57.jpg"
+      ],
+      "promo": "➡️ Enjoy free AMC for a lifetime\r\n➡️ ₹0 brokerage on Equity delivery trades\r\n✅ Experience safe and secure transactions\r\n⏳ Enjoy simple and fast transactions\r\n🖥️User-Friendly Platform\nApply Now: sales.gromo.in/lm/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 14
+    },
+    {
+      "id": "up",
+      "name": "Upstox Demat account",
+      "category": "Investing accounts",
+      "url": "https://sales.gromo.in/up/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000016-PHOTO-2026-11-04-17-03-08.jpg"
+      ],
+      "promo": "Open your online Demat Account with Upstox in just a few clicks and start trading with low charges.\r\n📝 Simple, quick & paperless onboarding process.\r\n💁🏻‍♀️ Zero account opening charges\r\n🤠 Zero commissions on investing in Mutual Funds & IPOs\r\n👉🏻 Zero Account maintenance charges for the 1st year\nApply Now: sales.gromo.in/up/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 15
+    },
+    {
+      "id": "fg",
+      "name": "Invest BharatPe fixed deposit",
+      "category": "Investment and savings offers",
+      "url": "https://sales.gromo.in/fg/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000017-PHOTO-2026-11-04-17-03-37.jpg"
+      ],
+      "promo": "🏦 Book Your Fixed Deposit with Invest BharatPe in just a Few Clicks! 📱💰\r\n💯 Start your FD with just ₹1,000\r\n🤝 Trusted partners — Shriram Finance, Bajaj Finance, Mahindra Finance & Suryoday SFB\r\n📅 Flexible tenure options to match your goal with minimum 30 days.  \r\n📊 Track your FD maturity and returns in one dashboard\r\nStart saving smarter today! 🌟\nApply Now: sales.gromo.in/fg/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 16
+    },
+    {
+      "id": "jb",
+      "name": "Jiraaf bonds",
+      "category": "Investment and savings offers",
+      "url": "https://sales.gromo.in/jb/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000018-PHOTO-2026-11-04-17-03-47.jpg"
+      ],
+      "promo": "💡 Invest Smart with Jiraaf Bonds!\r\n\r\n💰 Earn 8%–15% p.a. returns\r\n📅 Get fixed & predictable income\r\n🔒 Curated & secure issuers\r\n📲 100% digital, paperless journey\nApply Now: sales.gromo.in/jb/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 17
+    },
+    {
+      "id": "yd",
+      "name": "Invest BharatPe digital gold",
+      "category": "Investment and savings offers",
+      "url": "https://sales.gromo.in/yd/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000019-PHOTO-2026-11-04-17-03-58.jpg"
+      ],
+      "promo": "🪙 Buy 24K Digital Gold with Invest BharatPe in just a Few Clicks! 📱✨\r\n💯 Start with as little as ₹2000\r\n📈 Live gold rates — buy and sell at real-time market prices\r\n🔐 Stored safely in insured vaults by SafeGold\r\n💠 Sell anytime after 48 hours, money straight to your bank\r\nStart your gold savings today! 🌟\nApply Now: sales.gromo.in/yd/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 18
+    },
+    {
+      "id": "qb",
+      "name": "Secured RuPay credit card (provider to verify)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/qb/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000020-PHOTO-2026-11-04-17-05-30.jpg"
+      ],
+      "promo": "👉 Apply for the SBM Novio Credit Card in just a few minutes! ⚡💳\r\n🛡️ Guaranteed Approval – Credit Card against Fixed Deposit\r\n💳 Lifetime Free RuPay Credit Card\r\n💰 Start FD from just ₹2,000\r\n📈 Build & Improve Your CIBIL Score\r\n\r\n🎁 Exclusive Monthly Merchant Offers:\r\n🎬 BookMyShow – ₹250 off - Transaction value is ₹500 \r\n⛽ Free fuel upto ₹600\r\nUpto ₹250 off on a min cumulative transaction value of ₹500 and a min of 2 tickets. \r\n🛒 Amazon –upto ₹1000 off - Slab based pricing\r\n🍔 Swiggy – ₹100 OFF every month\r\n🥬 Zepto – upto ₹150 off - ₹50 off x 3 times a month.\r\n₹50 off on ₹499 or above - applicable up to 3 times per customer per month.\r\n\r\n💰 Total Yearly Savings up to ₹23000\r\n🚀 Apply Now & Start Building Your Credit Score Today!\nApply Now: sales.gromo.in/qb/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 19
+    },
+    {
+      "id": "te",
+      "name": "Investment SIP plan (provider to verify)",
+      "category": "Investment and savings offers",
+      "url": "https://sales.gromo.in/te/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000021-PHOTO-2026-11-04-17-05-45.jpg"
+      ],
+      "promo": "📈 Start Your Mutual Fund SIP with Invest BharatPe in just a Few Clicks! 📱💰\r\n🎯 Set your goal, get a ready-made SIP plan\r\n🌈 Wide range of funds — goal-based, basket and custom options\r\n🛡️ SEBI-regulated Mutual Funds, AMFI-guided standards\r\n💠 Withdraw anytime, money straight to your bank\r\nStart building wealth today! 🌟\nApply Now: sales.gromo.in/te/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 20
+    },
+    {
+      "id": "mc",
+      "name": "Multiple SIP investment plan (provider to verify)",
+      "category": "Other financial/consumer products",
+      "url": "https://sales.gromo.in/mc/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000022-PHOTO-2026-11-04-17-05-57.jpg"
+      ],
+      "promo": "✨ Start Multiple SIPs with Axis in just a Few Clicks! 📲💰📈\r\n\r\n🔹 10 SIPs ✅ 1 Transaction ✅ 1 Amount\r\n💰 Start with  just ₹1000 \r\n📲 Easy & Convenient \r\n📊 Lower Risk, Higher Stability\r\n🔄 Flexible Options – Invest as per Your Needs\r\n\nApply Now: sales.gromo.in/mc/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 21
+    },
+    {
+      "id": "fz",
+      "name": "Get Loan of ₹20000 in 5 Mins",
+      "category": "Other financial/consumer products",
+      "url": "https://loan.gromo.in/fz/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000023-PHOTO-2026-11-04-17-06-45.jpg"
+      ],
+      "promo": "⏱️ Get Loan of ₹20000 in 5 Mins\r\n📄 No Document required\r\n💰 Flat fee of ₹500 per Disbursal\nApply Now: loan.gromo.in/fz/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 22
+    },
+    {
+      "id": "he",
+      "name": "Instant Loan Approval",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/he/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000024-PHOTO-2026-11-04-17-07-03.jpg"
+      ],
+      "promo": "🕙Instant Loan Approval\r\n🤹Can be availed multiple times\r\n⏳Flexibility in Repayments\r\n📃Minimal Documentation\nApply Now: loan.gromo.in/he/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 23
+    },
+    {
+      "id": "bo",
+      "name": "BharatPe credit line on UPI",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/bo/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000025-PHOTO-2026-11-04-17-07-17.jpg"
+      ],
+      "promo": "Need extra money for daily expenses? 💳✨\r\nGet a *BharatPe Credit Line on UPI* and pay using UPI even when your bank balance is low! ✅\r\n⚡ Quick eligibility check & approval (basis profile)\r\n📲 Use credit line directly on UPI for merchant payments\r\n🛍️ Useful for shopping, bills & emergencies\r\n🖥️ Fully digital journey\r\n🔒 Safe & secure process\nApply Now: loan.gromo.in/bo/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 24
+    },
+    {
+      "id": "v",
+      "name": "Want Loan Against Mutual Fund?",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in//v/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000026-PHOTO-2026-11-04-17-07-31.jpg"
+      ],
+      "promo": "Want *Loan Against Mutual Fund*?\r\n⏳ Get instant loan with ROI from 10.5%\r\n📲 5-minute hassle-free digital process\r\n✅ 9Excellent approval rates (PAN India coverage)\r\n🤠 CIBIL check not required\r\n*Apply Now*\nApply Now: loan.gromo.in//v/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 25
+    },
+    {
+      "id": "groscore",
+      "name": "Loan or credit card getting rejected?",
+      "category": "Credit cards",
+      "url": "https://groscore.in/refer?gp=X1ML0914",
+      "images": [
+        "assets/gromo/images/00000027-PHOTO-2026-11-04-17-08-11.jpg"
+      ],
+      "promo": "🚨 Loan or credit card getting rejected?\r\n\r\nFind out the exact reason — and get approved next time! ✅\r\n\r\n✨ Just ₹9 for 3 days — no documents, no income proof, no branch visit\r\n\r\n📊 Understand your full Credit Report in plain language\r\n🤖 Chat with Arjun 24×7 — your personal credit coach\r\n📧 One-click email to Bank/Bureau — dispute, NOC, closure letter\r\n📝 One-click complaint — in proper RBI format, instantly\r\n\r\n👉 Start now \nApply Now: groscore.in/refer?gp=X1ML0914",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 26
+    },
+    {
+      "id": "lu",
+      "name": "LXME financial app",
+      "category": "Investment and savings offers",
+      "url": "https://sales.gromo.in/lu/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000028-PHOTO-2026-11-04-17-08-27.jpg"
+      ],
+      "promo": "Hi! 👋\r\nCheck out *LXME* – a smart money app for women💜\r\n\r\n💰 Earn FREE Digital Gold on UPI spends\r\n📈 Expert-picked Mutual Funds & SIPs\r\n📊 Easy budgeting & expense tracking\r\n\r\nStart your financial freedom journey today \nApply Now: sales.gromo.in/lu/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 27
+    },
+    {
+      "id": "vf",
+      "name": "Mobile SIM / telecom plan (provider to verify)",
+      "category": "Telecom",
+      "url": "https://sales.gromo.in/vf/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000029-PHOTO-2026-11-04-17-08-40.jpg"
+      ],
+      "promo": "🔥 Vi Prepaid - Best Deal Alert! 🔥\r\n\r\n✅ High-speed 5G/4G data\r\n✅ Unlimited calling + SMS\r\n✅ OTT benefits (Movies & TV)\r\n✅ Affordable plans, something for everyone\r\n\r\nIf you're thinking of switching networks, give Vi a try — you can keep your same number (via MNP). 👍\nApply Now: sales.gromo.in/vf/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 28
+    },
+    {
+      "id": "qp",
+      "name": "Snabbit home help",
+      "category": "Home services",
+      "url": "https://sales.gromo.in/qp/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000030-PHOTO-2026-11-04-17-08-54.jpg"
+      ],
+      "promo": "🏠 Maid on leave? Chores piling up?\r\n\r\nGet trusted house help at your doorstep in just 10 minutes with Snabbit ⚡\r\n\r\n✅ Trained & background-verified experts\r\n✅ Bathroom & kitchen cleaning, dishwashing, laundry, ironing\r\n✅ Pay by the hour – book instantly or schedule ahead\r\n✅ Trusted by 10 lakh+ families\r\n\r\n📍 Available in Mumbai, Delhi NCR, Bengaluru, Pune, Hyderabad & more\r\n\r\n👉 Download now \nApply Now: sales.gromo.in/qp/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 29
+    },
+    {
+      "id": "cx",
+      "name": "Get ClickPe Business Loan by Muthoot Finance in minutes! ⚡",
+      "category": "Other financial/consumer products",
+      "url": "https://loan.gromo.in/cx/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000031-PHOTO-2026-11-04-17-09-21.jpg"
+      ],
+      "promo": "Get ClickPe Business Loan by *Muthoot Finance* in minutes! ⚡\r\n💰 Loan up to ₹3 Lakhs\r\n📄 Minimal documentation\r\n🖥️ 100% digital journey\r\n⏱️ Fast approval & instant disbursal\r\n❌ No collateral required\nApply Now: loan.gromo.in/cx/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 30
+    },
+    {
+      "id": "yi",
+      "name": "Merchant QR/UPI business loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/yi/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000032-PHOTO-2026-11-04-17-09-32.jpg"
+      ],
+      "promo": "Get *InstaVyapaar Business Loan* for your shop in minutes! ⚡\r\n💰 Loan from ₹15,000 up to ₹2.5 Lakhs\r\n🏪 QR/UPI sales pe eligibility — no collateral\r\n📄 Only PAN, Aadhaar & bank statement\r\n🗓️ Daily repayment, no monthly EMI tension\r\n💻 100% digital journey\nApply Now: loan.gromo.in/yi/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 31
+    },
+    {
+      "id": "pl",
+      "name": "Attractive Interest Rate",
+      "category": "Other financial/consumer products",
+      "url": "https://loan.gromo.in/pl/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000033-PHOTO-2026-11-04-17-10-22.jpg"
+      ],
+      "promo": "💸 Attractive Interest Rate\r\n🔍 No Hidden Charges\r\n⚡ Quick Approvals\r\n🚫 Zero Pre-payment Charges\r\nApply Now and take advantage of these exclusive benefits! 🌟\nApply Now: loan.gromo.in/pl/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 32
+    },
+    {
+      "id": "in",
+      "name": "GroMo offer in — provider to verify",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/in/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000034-PHOTO-2026-11-04-17-10-36.jpg"
+      ],
+      "promo": "📃 No collateral required\r\n🗓 Flexible repayment tenure of up to 60 months\r\n💰 Loan amount ranging from ₹50,000 to ₹15 Lakhs\r\n🤠 Interest rate starting from 1.33% p.m.\r\n👉🏻 3 months of Bank statement are required\r\nClick here:\nApply Now: loan.gromo.in/in/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 33
+    },
+    {
+      "id": "mv",
+      "name": "Flexible loan of up to ₹5 lakh",
+      "category": "Other financial/consumer products",
+      "url": "https://loan.gromo.in/mv/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000035-PHOTO-2026-11-04-17-11-03.jpg"
+      ],
+      "promo": "💸 Flexible loan of up to ₹5 lakh\r\n💰 Loan repayment tenure up to 60 months\r\n⏱ Instant approval in 2 minutes, 24 hour disbursal\r\n🤩 Interest rate starting 1.33% per month\r\n💁🏻‍♀️ Processing Fees: starting  from 2%\r\n*Note: Moneyview reserves the right to have differential interest rate and processing fees and that displayed will be considered final.\r\n\nApply Now: loan.gromo.in/mv/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 34
+    },
+    {
+      "id": "fn",
+      "name": "Quick Disbursal: within 24 hours",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/fn/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000036-PHOTO-2026-11-04-17-11-14.jpg"
+      ],
+      "promo": "⏰ Quick Disbursal: within 24 hours\r\n🗓 Flexible Repayment Tenure: up to 48 months\r\n💰 Loan Amount: up to ₹10 Lakhs\r\n📊 Interest Rate: starting from 1.3% p.m. \r\n🙅🏻‍♀️ No Pre Closure Charges\r\nClick here:\nApply Now: loan.gromo.in/fn/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 35
+    },
+    {
+      "id": "tz",
+      "name": "Tez Credit personal loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/tz/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000037-PHOTO-2026-11-04-17-11-24.jpg"
+      ],
+      "promo": "Need quick cash? 💸\r\nGet Instant Personal Loan with *Tez Credit*!\r\n\r\n⚡ Loan up to ₹2.5 Lakhs\r\n📄 Minimal documentation\r\n🧾 Salary starting from just ₹18,000\r\n⏱️ Fast approval & quick disbursal\r\n📍 Available in 8,000+ pincodes\r\n\r\n*Apply now* for fast & easy loans! 🚀\nApply Now: loan.gromo.in/tz/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 36
+    },
+    {
+      "id": "fx",
+      "name": "FatakPay personal loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/fx/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000038-PHOTO-2026-11-04-17-11-33.jpg"
+      ],
+      "promo": "Need quick cash for an emergency? 💸\r\nGet *FatakPay Personal Loan* in minutes! ⚡\r\n\r\n💰 Loan up to ₹5 Lakh\r\n📄 Minimal documentation\r\n🧾 100% digital approval\r\n⏱️ Instant disbursal to your bank\r\n❌ No collateral required\r\n\r\nFast. Simple. Secure.\nApply Now: loan.gromo.in/fx/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 37
+    },
+    {
+      "id": "ra",
+      "name": "Need a Quick Loan? Get in Just 2 Minutes!",
+      "category": "Other financial/consumer products",
+      "url": "https://loan.gromo.in/ra/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000039-PHOTO-2026-11-04-17-11-47.jpg"
+      ],
+      "promo": "💸 Need a *Quick Loan*? Get in Just *2 Minutes*!\r\n✅ Instant transfer to your bank account\r\n 🆔 Only PAN & Aadhaar needed\r\n 🔓 No collateral, no hidden charges\r\n 📆 Flexible repayment up to 3 months\r\n 🚫 No foreclosure fees – close anytime\r\n 📲 100% online – no calls, no queues, no hassle\nApply Now: loan.gromo.in/ra/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 38
+    },
+    {
+      "id": "pf",
+      "name": "Zero Paperwork",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/pf/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000040-PHOTO-2026-11-04-17-11-59.jpg"
+      ],
+      "promo": "📝 Zero Paperwork\r\n🤠 Available for both salaried and self employed\r\n⏱ Instant Loan Approval\r\n👉🏻 Same Day Disbursal\r\nClick here to apply now: \nApply Now: loan.gromo.in/pf/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 39
+    },
+    {
+      "id": "xa",
+      "name": "Instant Zapcash Loan up to ₹50K",
+      "category": "Other financial/consumer products",
+      "url": "https://loan.gromo.in/xa/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000041-PHOTO-2026-11-04-17-12-08.jpg"
+      ],
+      "promo": "💠 Instant *Zapcash Loan* up to ₹50K\r\n🔍 100% Digital Process\r\n⚡ Approval in Minutes\r\n🚫 No Collateral Required\r\n📄 Minimal Documentation\r\nApply Now and get funds straight in your bank account! 🌟\nApply Now: loan.gromo.in/xa/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 40
+    },
+    {
+      "id": "bq",
+      "name": "BrightLoans personal loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/bq/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000042-PHOTO-2026-11-04-17-12-18.jpg"
+      ],
+      "promo": "Need urgent money? 💸\r\nGet a *BrightLoans Personal Loan* with a quick digital process ⚡\r\n⏱️ Fast approval & disbursal (basis eligibility)\r\n📲 100% online & contactless journey\r\n🧾 Minimal paperwork vs offline loans\r\n🏦 Direct bank transfer after approval\r\n🔐 Safe & secure application process\nApply Now: loan.gromo.in/bq/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 41
+    },
+    {
+      "id": "hf",
+      "name": "Get Instant Access to Funds with Hero Fincorp Personal Loans",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/hf/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000043-PHOTO-2026-11-04-17-12-53.jpg"
+      ],
+      "promo": "Get Instant Access to Funds with Hero Fincorp Personal Loans\r\n🏦 Easy Personal loan for all purposes\r\n💸 Collateral-Free Loan\r\n🔐 Seamless login process\r\n✅ Simple repayment\nApply Now: loan.gromo.in/hf/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 42
+    },
+    {
+      "id": "mx",
+      "name": "Want an Instant Loan. Apply for Myflot",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/mx/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000044-PHOTO-2026-11-04-17-13-01.jpg"
+      ],
+      "promo": "Want an Instant Loan. Apply for *Myflot*\r\n💸 Loans from as low as ₹1,000 up to ₹99,000 \r\n🗓️ Flexible tenures: 3 to 12 months \r\n🧾 Simple, digital & minimal-document process \r\n🔐 Backed by NBFC partners, secure & regulated \r\n🚀 Fast disbursal after approval\r\n👉Click on Link *Now*\nApply Now: loan.gromo.in/mx/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 43
+    },
+    {
+      "id": "lp",
+      "name": "Get Instant Access to Funds with Lendingplate Personal Loans",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/lp/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000045-PHOTO-2026-11-04-17-13-12.jpg",
+        "assets/gromo/images/00000046-PHOTO-2026-11-04-17-13-22.jpg"
+      ],
+      "promo": "Get Instant Access to Funds with Lendingplate Personal Loans\r\n🌐 Instant Online Application\r\n💸 Collateral-Free Loan\r\n📊 Flexible Loan Amounts\r\n❌ No Hidden Charges\r\n⚡ Fast Access to Funds\r\n🔒 Secure Process\nApply Now: loan.gromo.in/lp/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 44
+    },
+    {
+      "id": "ut",
+      "name": "GroMo offer ut — provider to verify",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/ut/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000047-PHOTO-2026-11-04-17-13-34.jpg"
+      ],
+      "promo": "Go from \"want a loan\" to \"Got a Loan\" within minutes. Get personal loan of upto ₹5 Lakh sanctioned within minutes from Unity Small Finance Bank. \r\n- No Paperwork\r\n- No Bank Visit Required\r\n- No Collateral Required. \nApply Now: loan.gromo.in/ut/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 45
+    },
+    {
+      "id": "kb",
+      "name": "Loans ranging from ₹7,000 to ₹5 Lakhs",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/kb/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000048-PHOTO-2026-11-04-17-13-47.jpg"
+      ],
+      "promo": "💰 Loans ranging from ₹7,000 to ₹5 Lakhs\r\n🤩 Easy application process.\r\n📱 Digital processing and 10-minute loan disbursal.\r\n💲 Interest rate from 1.02% - 2.49% p.m.\r\n😇 No collateral is required to apply for a Personal Loan.\r\n🇮🇳   Service Eligible for PAN India.\r\n\r\nUse Coupon Code: DSA100 for 0% processing fees\nApply Now: loan.gromo.in/kb/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 46
+    },
+    {
+      "id": "kh",
+      "name": "Looking For an Instant Loan? Apply for Kissht Personal Loan!",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/kh/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000049-PHOTO-2026-11-04-17-13-59.jpg"
+      ],
+      "promo": "Looking For an Instant Loan? Apply for Kissht Personal Loan!\r\n⚡ Instant approval & disbursal (in minutes for eligible profiles)\r\n📄 Minimal documentation – PAN, Aadhaar, selfie\r\n🏦 100% online process (no branch visits)\r\n💰 Flexible amounts: ₹5,000 up to ₹5 Lakhs\r\n🔄 Flexible tenure options\r\n💳 No collateral or guarantor required\nApply Now: loan.gromo.in/kh/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 47
+    },
+    {
+      "id": "rn",
+      "name": "RING personal loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/rn/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000050-PHOTO-2026-11-04-17-14-10.jpg"
+      ],
+      "promo": "Looking For an Instant Loan? \r\nApply for *Ring Personal Loan*!\r\n⚡ Instant approval & disbursal (in minutes for eligible profiles)\r\n📄 Minimal documentation – PAN, Aadhaar, selfie\r\n🏦 100% online process (no branch visits)\r\n💰 Flexible amounts: ₹5,000 up to ₹5 Lakhs\r\n🔄 Flexible tenure options\r\n💳 No collateral or guarantor required\nApply Now: loan.gromo.in/rn/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 48
+    },
+    {
+      "id": "zz",
+      "name": "Looking for Instant Personal Loan?",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/zz/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000051-PHOTO-2026-11-04-17-14-38.jpg"
+      ],
+      "promo": "Looking for *Instant Personal Loan*?\r\n💸 Attractive Interest Rate\r\n🔍 No Hidden Charges\r\n⚡ Quick Approvals\r\n🚫 Zero Pre-payment Charges\r\nApply Now and take advantage of these exclusive benefits! 🌟\nApply Now: loan.gromo.in/zz/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 49
+    },
+    {
+      "id": "hl",
+      "name": "Will not impact your current Credit Card Limit",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/hl/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000052-PHOTO-2026-11-04-17-14-49.jpg"
+      ],
+      "promo": "🎉Will not impact your current Credit Card Limit \r\n🕙Instant Loan Approval\r\n🤹Can be availed multiple times\r\n⏳Flexibility in Repayments\r\n📃Minimal Documentation\nApply Now: loan.gromo.in/hl/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 50
+    },
+    {
+      "id": "dr",
+      "name": "A smarter way to borrow through Digi Credit Personal loans",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/dr/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000053-PHOTO-2026-11-04-17-14-59.jpg"
+      ],
+      "promo": "A smarter way to borrow through Digi Credit Personal loans\r\n💸 Instant Personal Loan of up to ₹1,00,000\r\n🗓 Flexible Tenure of up to 15-45 days\r\n👉🏻 Processing Fees: Upto 5%\r\n📊 Lower Interest Rate\r\n📲 Fully Digital Process\r\n⏱ Instant Approval with Quick Disbursal\nApply Now: loan.gromo.in/dr/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 51
+    },
+    {
+      "id": "bb",
+      "name": "BharatPe personal loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/bb/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000054-PHOTO-2026-11-04-17-15-11.jpg"
+      ],
+      "promo": "Need instant funds for your needs? 💰\r\nGet a *BharatPe Personal Loan* with quick approval! ⚡\r\n\r\nWhy choose this loan?\r\n📄 Minimal documentation\r\n🖥️ 100% digital process\r\n⏱️ Fast approval & quick disbursal\r\n💸 Flexible loan amounts\r\n\r\n*Apply now* and get funds directly into your bank account!\nApply Now: loan.gromo.in/bb/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 52
+    },
+    {
+      "id": "lo",
+      "name": "IDFC FIRST personal loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/lo/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000055-PHOTO-2026-11-04-17-15-23.jpg"
+      ],
+      "promo": "💼 Get an Instant Personal Loan from IDFC First Bank\r\n🌟 Approved Loan Offer upto ₹10 Lakhs\r\n💸 Withdraw funds with flexible EMI dates\r\n🔓 Repay anytime with ZERO foreclosure charges\r\n📉 ROI Starting from 9.99%\r\n📆 Flexible Tenure: 9 - 60 Months\r\n\nApply Now: loan.gromo.in/lo/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 53
+    },
+    {
+      "id": "cw",
+      "name": "Need cash before your next salary? 💰",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/cw/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000056-PHOTO-2026-11-04-17-15-32.jpg"
+      ],
+      "promo": "Need cash before your next salary? 💰\r\n✅ Get instant personal loans up to ₹1,50,000\r\n✅ Short & flexible tenure up to 45 days\r\n✅ Interest rates starting at just 1%\r\n✅ 100% digital & paperless process\r\n✅ Money credited directly to your bank account\r\n\r\nCheck your eligibility in 2 minutes 👇\nApply Now: loan.gromo.in/cw/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 54
+    },
+    {
+      "id": "vr",
+      "name": "Need Instant Cash?",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/vr/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000057-PHOTO-2026-11-04-17-15-42.jpg"
+      ],
+      "promo": "💠 Need Instant Cash?\r\n⚡ Loan from ₹5,000 up to ₹35,000\r\n🌐 100% Digital Process \r\n🚀 Disbursal often within 24 hours\r\n🚫 No Collateral, No Paperwork\r\nApply Now and get funds straight in your bank account! 🌟\nApply Now: loan.gromo.in/vr/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 55
+    },
+    {
+      "id": "ox",
+      "name": "Freo personal loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/ox/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000058-PHOTO-2026-11-04-17-16-16.jpg"
+      ],
+      "promo": "💠 Get Your *Freo Personal Loan* in just a Few Clicks! 📱\r\n✅ Designed for Salaried Professionals\r\n📅 Choose from short-term (2 to 12 months) or long-term (above 12 months) tenure\r\n👤 For applicants aged 23 to 58 years\r\nApply Now and check your eligibility! 🌟\nApply Now: loan.gromo.in/ox/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 56
+    },
+    {
+      "id": "tp",
+      "name": "True Balance personal loan",
+      "category": "Loans and credit lines",
+      "url": "https://loan.gromo.in/tp/MHcptoixKG",
+      "images": [
+        "assets/gromo/images/00000059-PHOTO-2026-11-04-17-16-28.jpg"
+      ],
+      "promo": "💠 Get Your *True Balance Cash Loan* in just a Few Clicks! 📱\r\n💰 Loan from ₹5,000 up to ₹2 Lakhs\r\n📅 Flexible tenure from 6 to 24 months\r\n📈 Interest starting at 2.4% per month\r\n📄 100% paperless process\r\nApply Now and get funds in your bank account! 🌟\nApply Now: loan.gromo.in/tp/MHcptoixKG",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 57
+    },
+    {
+      "id": "if",
+      "name": "Credit card – issuer unconfirmed (Rupay add-on)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/if/MHcptoixKG",
+      "images": [],
+      "promo": "🆓 Lifetime Free Credit Card \r\nAdd on:  Rupay/UPI Card just @ ₹199 )\r\n🥳 Reward Points \r\n    -  3X Rewards on Online and Offline spends\r\n    - 10X Rewards on monthly spends above ₹20,000 \r\n    -  1X Rewards on insurance and utility transactions\r\n    -  No Expiry \r\n🤩 Additional benefits\r\n    - 25% Off at movie tickets once a month (via PayTM) \r\n    - Free road side assistance worth ₹1499\r\n    - Up to 20% discount across 1500+ restaurants and merchants\r\n🛡 Insurance protection: Personal Accident Cover, Lost Card Liability Covers\r\n*Note* - You will get the card variant as per your profile once you enter in journey.\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 58
+    },
+    {
+      "id": "kw",
+      "name": "Kiwi YES BANK RuPay Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/kw/MHcptoixKG",
+      "images": [],
+      "promo": "*KIWI Yes Bank Rupay Credit Card*\r\n💳 Lifetime Free Credit Card – No joining or annual fees\r\n📲 Use Anywhere – Pay via any UPI app with your virtual card\r\n⚡ Instant Activation – Simple onboarding and verification\r\n💰 No Minimum Spend required to use your card\r\n🔁 2x Assured Cashback on every “Scan & Pay” transaction\r\n🏦 Instant Cashback Credit – Redeem anytime, directly to your bank account\r\n*APPLY NOW*\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 59
+    },
+    {
+      "id": "ac",
+      "name": "Flipkart Axis Bank Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ac/MHcptoixKG",
+      "images": [],
+      "promo": "💳 Flipkart Axis Bank Credit Card — har spend pe cashback\r\n\r\n✅ 5% cashback on Flipkart\r\n✅ 7.5% cashback on Myntra (up to ₹4,000 per quarter)\r\n✅ 4% cashback on preferred partners (Swiggy, Uber, etc.)\r\n✅ 1% unlimited cashback on all other spends\r\n⛽ 1% fuel surcharge waiver across India\r\n🎁 ₹350 worth welcome benefits on card activation\r\n📅 Special Wednesday offers & easy EMI on purchases above ₹2,500\r\n\r\nIssued by Axis Bank. T&C apply.\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 60
+    },
+    {
+      "id": "ack",
+      "name": "Axis Bank Neo Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ack/MHcptoixKG",
+      "images": [],
+      "promo": "💳 Axis Bank Neo Credit Card - Lifetime FREE!\r\n🎁 Flat ₹120 off on Zomato* \r\n 💰10% discount of Blinkit, Bookmyshow and Myntra*\r\n💰 5% off on utility bill payments via Paytm\r\n⛽ Fuel surcharge waiver\r\n✈️ Earn 1 EDGE Reward Point per ₹200 spend\r\n\r\nT&C Applied.\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 61
+    },
+    {
+      "id": "rr",
+      "name": "Roarbank Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/rr/MHcptoixKG",
+      "images": [],
+      "promo": "Dear Customer,\r\nQuick update on your Roarbank Credit Card.\r\nYour card benefits have been updated.\r\n\r\n•⁠  ⁠Annual fee: ₹0\r\n•⁠  ⁠Joining fees: ₹0\r\n•⁠  ⁠Cashback: Up to 20% on 2 selected categories every month\r\n•⁠  ⁠Credit limit: Up to ₹3,00,000\r\n\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 62
+    },
+    {
+      "id": "di",
+      "name": "Rewards credit card – issuer unconfirmed",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/di/MHcptoixKG",
+      "images": [],
+      "promo": "🔥 Get More Rewards on Every Weekend Spend\r\n💳 Enjoy 2X Reward Points on Weekend Transactions\r\n🎬 Complimentary Movie Tickets Every Month\r\n⭐ Earn 3,000 Bonus Reward Points on Annual Spends of ₹5 Lakh+\r\n🌍 Low Forex Markup of Just 1.8%\r\n🛍️ Perfect for Shopping, Dining, Travel & Entertainment\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 63
+    },
+    {
+      "id": "ug",
+      "name": "Uni Gold credit card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ug/MHcptoixKG",
+      "images": [],
+      "promo": "🆓 Zero Joining and Annual Fee\r\n🤑 1% assured Gold cashback on your spends*\r\n📈 Unlimited 5% Gold on Amazon, Zomato, Myntra, Zepto and more\r\n🤩 5X more value at Uni Store\r\n💸 Zero Forex Markup\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 64
+    },
+    {
+      "id": "ky",
+      "name": "Kiwi RuPay Credit Card (variant unconfirmed)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ky/MHcptoixKG",
+      "images": [],
+      "promo": "*KIWI Rupay Credit Card*\r\n💳 Lifetime Free Credit Card – No joining or annual fees\r\n📲 Use Anywhere – Pay via any UPI app with your virtual card\r\n⚡ Instant Activation – Simple onboarding and verification\r\n💰 No Minimum Spend required to use your card\r\n🔁 2x Assured Cashback on every “Scan & Pay” transaction\r\n🏦 Instant Cashback Credit – Redeem anytime, directly to your bank account\r\n*APPLY NOW*\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 65
+    },
+    {
+      "id": "hpx",
+      "name": "HDFC Pixel Play Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/hpx/MHcptoixKG",
+      "images": [],
+      "promo": "🎯 HDFC *Pixel Play Credit Card* – digital, powerful, and personalized:\r\n\r\n💰 5% cashback on your choice of 2 merchant packs\r\n🛒 3% cashback on 1 selected merchant (Amazon/Flipkart/PayZapp)\r\n💳 Unlimited 1% cashback on all other spends\r\n📲 DIY features: customize card design & billing date\r\n📱 100% digital card access & control via PayZapp\r\n*APPLY NOW*\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 66
+    },
+    {
+      "id": "ls",
+      "name": "Rewards/UPI credit card – issuer unconfirmed",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ls/MHcptoixKG",
+      "images": [],
+      "promo": "-• 37.5% effective reward rate on UPI spends on Salary Days - the 1st and last day of every month. Among the highest in India.\r\n• Tiered everyday rewards - up to 10 RP per ₹100\r\n• 12 complimentary domestic lounge visits a year\r\n• 1% forex rewards, plus Amazon Prime and Zepto benefits\r\n• Two variants - a lifetime free virtual card, and a paid physical + virtual variant at ₹500 + GST (annual fee waived above ₹2L spend)\r\n\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 67
+    },
+    {
+      "id": "xs",
+      "name": "SBI Credit Card (variant unconfirmed)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/xs/MHcptoixKG",
+      "images": [],
+      "promo": "✨*Get Yourself a SBI Credit Card* ✨\r\n💳 Easy & secure payments\r\n🏆 Reward Points on spends\r\n🍴 Dining, travel & lifestyle offers\r\n💸 Cashback & discounts\r\n\r\n*Apply now* & enjoy smarter shopping! 🎉\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 68
+    },
+    {
+      "id": "scp",
+      "name": "Federal Bank Scapia Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/scp/MHcptoixKG",
+      "images": [],
+      "promo": "Love to travel? 🛫 The Federal Bank *Scapia Credit Card* brings travel perks to your fingertips:\r\n0 ₹ Joining & Annual Fee\r\n⭐ Earn 20% Scapia Coins on travel via Scapia app, 10% on all other spends\r\n🏝 Unlimited domestic lounge access (₹10K spend – Visa; ₹15K – RuPay)\r\n💱 Zero forex markup on international spends\r\n📲 Fully digital onboarding & control through the Scapia app\r\n*Apply now* and turn every swipe into travel magic!\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 69
+    },
+    {
+      "id": "co",
+      "name": "BOBCARD Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/co/MHcptoixKG",
+      "images": [],
+      "promo": "🎉 *BOBCARD Credit Card – Exciting Benefits!*\r\n🆓 Complimentary 6-Month FITPASS Pro Membership*\r\n🎬 Buy 1 Get 1 Movie Ticket Offer*\r\n🚂 Reward Points on Train Ticket Bookings via IRCTC*\r\n🪙 Accelerated Reward Points on Eligible Spends*\r\n✈️ Complimentary Airport & Railway Lounge Access*\r\n💰 Annual Fee Waiver on Achieving Eligible Spend Milestones*\r\n🎁 Welcome Benefits – Vouchers & Reward Points*\r\n*Terms & Conditions Apply. Benefits and eligibility may vary by card variant.\r\n📲 Apply now through your personalized link!\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 70
+    },
+    {
+      "id": "ca",
+      "name": "CheQ AU Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ca/MHcptoixKG",
+      "images": [],
+      "promo": "💳 *Get paid back on everything you spend!*\r\n\r\nIntroducing the *CheQ AU Credit Card* – India's first 360° credit card 🚀\r\n\r\n✅ *Lifetime FREE* – ₹0 joining, ₹0 annual fee\r\n🎁 *Up to 12% rewards* on Amazon, Flipkart, Zomato, flights, hotels & bills\r\n🛍️ *5% rewards* on 10,000+ brands\r\n📲 *2.5% rewards* on UPI scan & pay\r\n⛽ *1% rewards* on all other spends + 1% fuel surcharge waiver\r\n💳 *2 cards, 1 apply* – RuPay + Visa\r\n\r\n⚡ Apply in just *5 minutes* | Approval in *48 hours* – 100% digital\r\n\r\n💰 Spend ₹50,000/month and earn up to *₹28,000 in rewards every year!*\r\n\r\n👉 Apply now: \r\n\r\n\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 71
+    },
+    {
+      "id": "kd",
+      "name": "Kotak League Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/kd/MHcptoixKG",
+      "images": [],
+      "promo": "💳 Get Your Kotak League Credit Card in just a Few Clicks! 📱✨\r\n🆓 Lifetime Free — Zero Joining Fee, Zero Annual Fee\r\n🎯 Up to 8 Reward Points on every ₹150 spent\r\n⛽ 1% Fuel Surcharge Waiver up to ₹3,500 annually\r\n🎬 8 free PVR tickets on spends of ₹1.25 Lakh every one year.\r\nApply Now and start earning rewards! 🌟\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 72
+    },
+    {
+      "id": "bn",
+      "name": "Rewards credit card – issuer unconfirmed",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/bn/MHcptoixKG",
+      "images": [],
+      "promo": "🌟 10X Reward Points* on Exclusive Online Partners\r\n🎁 e-Voucher worth 500 on payment of Joining Fee\r\n🔄 Annual Fee Reversal on spending ₹1 Lakh in a year\r\n🎫 e-Vouchers worth ₹2,000 on yearly spends of ₹1 Lakh and ₹2 Lakh\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 73
+    },
+    {
+      "id": "yp",
+      "name": "POP UPI RuPay Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/yp/MHcptoixKG",
+      "images": [],
+      "promo": "🆓 Lifetime Free UPI Rupay Credit Card\r\n🤩 Joining benefits of Zomato, PharmEasy and Cleartrip\r\n🎁 500 POPcoins on card activation \r\n🤑 1000 pop coins on linking POP card to POP UPI\r\n💸 1 POPcoin = ₹1 on the POP Shop\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 74
+    },
+    {
+      "id": "fl",
+      "name": "Fuel/rewards RuPay Credit Card – issuer unconfirmed",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/fl/MHcptoixKG",
+      "images": [],
+      "promo": "🎁 Welcome benefits worth ₹1650\r\n💳 UPI Rupay Credit Card\r\n🚕 Up to 24x rewards on Fuel & 30x on Grocery/Utility/FASTag\r\n🆓 0 Annual Fee on spending > ₹1.50L in previous year\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 75
+    },
+    {
+      "id": "auc",
+      "name": "AU Bank Credit Card (variant unconfirmed)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/auc/MHcptoixKG",
+      "images": [],
+      "promo": "🟢 AU Bank Credit Card ke saath mile:\r\n✨ *Lifetime Free* Card (Select Variants)\r\n💰 Har kharche par cashback\r\n🎁 Reward points on shopping, travel, fuel & more\r\n📲 Instant virtual card with easy onboarding\r\n💳 Multiple variants available (Altura, Zenith, LIT etc.)\r\n*APPLY NOW*\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 76
+    },
+    {
+      "id": "tn",
+      "name": "Tata Neu HDFC Bank Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/tn/MHcptoixKG",
+      "images": [],
+      "promo": "*Tata Neu HDFC Bank Credit Card* — Extraordinary Rewards. Ready for You.\r\n\r\n🤩 1st year membership fee wapas as NeuCoins — bas 90 din ke andar ek transaction karein\r\n🪙 Up to 10% back as NeuCoins on every TATA Neu App transaction (1 NeuCoin = ₹1)\r\n✈️ Up to 8 domestic + 4 international complimentary lounge access\r\n⛽ 1% fuel surcharge waiver\r\n👉 Renewal fee waived on annual spends of ₹1 Lakh / ₹3 Lakh (variant ke hisaab se)\r\n\r\nIssued by HDFC Bank. T&C apply.\r\n\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 77
+    },
+    {
+      "id": "yn",
+      "name": "YES BANK novio Dual Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/yn/MHcptoixKG",
+      "images": [],
+      "promo": "💳✨ YES BANK novio Dual Credit Card ✨💳\r\nOne Card. Double the Power. Zero Fees!_ 🔥\r\n\r\n🆓 *Lifetime FREE* – No joining fee, no annual fee, ever!\r\n🔄 *2-in-1 Card* – RuPay for UPI + Mastercard for everything else\r\n🪙 *Up to 10% novio coins* on your spends\r\n⛽ *Fuel Benefit* – 1% surcharge waiver + 15% novio coins\r\n🏆 *Milestone Rewards* – Extra up to ₹15,000 in novio coins\r\n✈️ *8 Airport Lounge Visits* – Travel in comfort\r\n🎁 *Welcome Benefits worth ₹5,000*\r\n\r\n🛍️ *Save up to ₹23,000 on your favourite brands:*\r\n🛒 Amazon – 5% OFF\r\n🎬 BookMyShow – Buy 1 Get 1 FREE\r\n🥦 Zepto – 10% OFF\r\n🍔 Swiggy – 20% OFF\r\n\r\n🎉 Redeem coins on Myntra, Flipkart, Jio, Ajio, Domino's, KFC & 15+ more brands!\r\n\r\n⏳ *Don't miss out – apply in just a few minutes!*\r\n\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 78
+    },
+    {
+      "id": "hy",
+      "name": "Rewards credit card – issuer unconfirmed",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/hy/MHcptoixKG",
+      "images": [],
+      "promo": "🤩 Exclusive reward points and cashbacks on online spends\r\n🎁 Welcome benefits\r\n💵 Vouchers on monthly spends\r\n✈️ Complimentary Airport Lounge access\r\n⛽ Fuel surcharge waiver\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 79
+    },
+    {
+      "id": "zf",
+      "name": "Jupiter Edge+ Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/zf/MHcptoixKG",
+      "images": [],
+      "promo": "💳 Get Rewarded on Every Swipe with Jupiter Edge+ Credit Card!\r\n\r\n🛍️ 10% cashback on Amazon, Flipkart, Myntra, AJIO, Nykaa, Reliance Digital, Croma, Tata Cliq & more (up to ₹1,500)\r\n✈️ 5% cashback on MMT, Yatra, Cleartrip & EaseMyTrip (up to ₹1,000)\r\n💳 1% cashback on all other spends (up to ₹1,000)\r\n💎 Earn up to 50X reward points as redeemable jewels\r\n💰 Save ₹50,000+ annually on your spends\r\n💳 Up to ₹7 lakh credit limit\r\n🎁 Complimentary 1-year Onsurity + Disney+ Hotstar membership\r\n\r\nApply now and maximize your rewards on shopping, travel & everyday spends.\r\n\r\n*T&C Apply.*\r\n\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 80
+    },
+    {
+      "id": "ri",
+      "name": "IndianOil fuel rewards Credit Card (issuer unconfirmed)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ri/MHcptoixKG",
+      "images": [],
+      "promo": "Special offer for you, get *8.5% valueback* at at IndianOil Fuel stations.\r\n\r\n⛽ *250 litres free fuel* annually\r\n🛒15 fuel points/₹100 spent at IndianOil stations\r\n💳 3,000 Fuel points as welcome gift\r\n🆓 Annual Fee Waiver on ₹2.75 lakh annual spend\r\n🎁 1 fuel point = ₹0.50\r\n\r\nApply now for savings on every spend!\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 81
+    },
+    {
+      "id": "th",
+      "name": "Tata Neu credit card (variant unconfirmed)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/th/MHcptoixKG",
+      "images": [],
+      "promo": "🚀 Extraordinary Rewards. Ready for You.\r\n🤩 Get back 1st year membership fee as NeuCoins on doing a transaction within 90 days\r\n🪙 Up to 10% cashback as NeuCoins on every TATA Neu App transaction. \r\n1 NeuCoin = ₹1\r\n✈️ Up to 8 Complimentary Domestic and 4 International Lounge Access\r\n⛽️ 1% Fuel surcharge waiver\r\n👉🏻 Renewal fee waived on annual spends of ₹1 Lakh or ₹3 Lakh (depends on variant) \nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 82
+    },
+    {
+      "id": "oe",
+      "name": "Axis Bank MyZone Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/oe/MHcptoixKG",
+      "images": [],
+      "promo": "Introducing Axis Bank MyZone Credit Card \r\n🍔 Dining & entertainment offers\r\n🎟️ Movie & food benefits\r\n🆓 Lifetime Free Credit Card\r\n💳 Ideal for everyday lifestyle spends\r\n\r\nApply now and enjoy exclusive offers! 🚀\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 83
+    },
+    {
+      "id": "li",
+      "name": "LIC rewards credit card (issuer unconfirmed)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/li/MHcptoixKG",
+      "images": [],
+      "promo": "🎖 2 Reward points/ ₹100 spent on LIC payment\r\n💳 Lifetime free credit card\r\n✈️ 8 domestic lounge visits/ year (Signature)\r\n⛽️ 1% surcharge waiver on fuel spends\r\nClick here:\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 84
+    },
+    {
+      "id": "rt",
+      "name": "RBL Bank Shoprite Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/rt/MHcptoixKG",
+      "images": [],
+      "promo": "Special offer for you, get *Lifetime free* RBL Bank Shoprite Credit Card:\r\n\r\n🛒 *5% cashback* on grocery shopping\r\n💳 1 reward point for every ₹100 spent on other purchases\r\n⛽ Fuel surcharge waiver \r\n🆓 Lifetime free card – no joining or annual fees (limited time offer)!\r\n🎥Get 10% discount on movie tickets on Bookmyshow\r\nApply now for savings on every spend!\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 85
+    },
+    {
+      "id": "it",
+      "name": "IndusInd Bank Tiger Credit Card",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/it/MHcptoixKG",
+      "images": [],
+      "promo": "🎯 IndusInd Bank *Tiger Credit Card* – packed with premium perks:\r\n💳 No joining or annual fee\r\n🎁 Up to 6X reward points on yearly spends\r\n✈️ Free airport lounge access (2 domestic/quarter & 2 international/year)\r\n🎬 1 free movie ticket (₹500 off) every 6 months\r\n🛠️ Concierge + Auto Assist: roadside help, bookings & emergency support\r\n*APPLY NOW*\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 86
+    },
+    {
+      "id": "ah",
+      "name": "Fuel rewards RuPay credit card (issuer unconfirmed)",
+      "category": "Credit cards",
+      "url": "https://sales.gromo.in/ah/MHcptoixKG",
+      "images": [],
+      "promo": "🎁 Welcome benefit: Earn 100% valueback on Fuel\r\n⛽ 4% valueback on fuel transactions\r\n💰 UPI - Rupay Credit Card\r\n🆓 Annual Fee waiver on ₹3.5 lakhs annual spends\r\n🎬 10% discount on Book My Show movie tickets\nApply Now: [referral link saved separately]",
+      "verified": false,
+      "indiaEligible": false,
+      "publicationStatus": "on hold – terms, authorization and offer verification pending",
+      "source": "GroMo export",
+      "sourceIndex": 87
+    }
+  ]
+}
