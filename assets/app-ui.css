@@ -45,3 +45,12 @@ td,th{border-color:#303329!important}
  .panel{padding:18px!important}
  .notice{font-size:.75rem!important;padding:10px!important}
 }
+
+/* Shared top brand header */
+.fc-app-header{height:62px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #292d23;margin:0 0 20px;padding:0 0 12px}
+.fc-brand{display:flex;align-items:center;gap:10px;color:#f5f6ed;text-decoration:none;font-size:.8rem;font-weight:950;letter-spacing:.12em}
+.fc-brand-mark{width:36px;height:36px;border-radius:12px;background:#d7ff32;color:#171a0d;display:grid;place-items:center;font-weight:1000;letter-spacing:-.06em}
+.fc-signin{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border:1px solid #414632;border-radius:999px;background:#1a1e14;color:#d7ff32!important;text-decoration:none;font-size:.78rem;font-weight:800}
+.fc-signin span{font-size:1rem}
+.fc-bottom-nav{display:none!important}
+@media(max-width:680px){.fc-app-header{height:56px;margin-bottom:16px;padding-bottom:9px}.fc-signin{padding:8px 12px}}
