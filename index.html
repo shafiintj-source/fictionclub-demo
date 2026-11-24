@@ -1,30 +1,89 @@
 <!doctype html>
-<html lang="ml"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#050608"><meta name="description" content="FICTION CLUB Kerala Pay and financial services demo"><title>FICTION CLUB — Kerala Pay</title><link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="manifest" href="./site.webmanifest"><meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="./assets/theme.css">
+<html lang="ml">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#080909">
+<meta name="description" content="FICTION CLUB — Kerala Pay and finance demo">
+<title>FICTION CLUB — Home</title>
+<link rel="icon" type="image/svg+xml" href="./favicon.svg"><link rel="manifest" href="./site.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes"><link rel="stylesheet" href="./assets/theme.css">
 <style>
-.hero{padding:44px 0 26px;display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:center}.hero h1{font-size:clamp(2.7rem,7vw,5.2rem);line-height:.98;margin:12px 0}.hero p{max-width:510px}.heroCard{min-height:220px;padding:22px;display:flex;flex-direction:column;justify-content:space-between;background:radial-gradient(circle at 80% 15%,#b8f36b1c,transparent 45%),linear-gradient(145deg,#171d24,#090b0f)!important}.heroCard .symbol{font-size:2.6rem}.heroCard strong{font-size:1.4rem}.services{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.section{margin:30px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin-bottom:13px}.section-head h2{margin:0}.quick{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}.quick a{font-size:.88rem}.brand-mark{width:40px;height:40px}.foot{margin-top:34px;padding:20px 0;border-top:1px solid var(--line)}.meta{font-size:.8rem;color:var(--muted)}
-</style></head><body><main class="wrap">
-<nav class="nav"><div class="brand"><span class="brand-mark">FC</span><span>FICTION CLUB</span></div><div class="actions"><a class="btn" href="./login.html">Sign in</a><a class="btn primary" href="./recharge-mvp.html">Open Pay</a></div></nav>
-<div class="banner" style="margin-top:16px">DEVELOPMENT PREVIEW <span class="meta">· Demo only · Production website unchanged</span></div>
-<section class="hero"><div><div class="eyebrow">KERALA · PAYMENTS · FINANCE</div><h1>Everyday money.<br><span style="color:var(--accent)">One simple hub.</span></h1><p>Recharge, bill links and financial products — organised for Kerala. Choose a service to explore the demo.</p><div class="quick"><a class="btn primary" href="./recharge-mvp.html">⚡ Try Kerala Pay</a><a class="btn" href="./bill-payments.html">↗ Official bill links</a></div></div><div class="heroCard"><div class="symbol">◈ &nbsp; ⚡ &nbsp; ◉</div><div><strong>FICTION CLUB</strong><div class="meta">A Kerala-first digital services project</div><div class="meta" style="margin-top:12px">Sole proprietorship · Udyam / MSME</div></div></div></section>
-<section class="section"><div class="section-head"><h2>Pay & recharge</h2><span class="meta">8 service shortcuts</span></div><div class="services">
-<a class="service" href="./recharge-mvp.html"><i>📱</i><b>Mobile recharge</b><small>Jio · Airtel · Vi · BSNL</small></a>
-<a class="service" href="./recharge-mvp.html"><i>📺</i><b>DTH recharge</b><small>Tata Play · Dish TV</small></a>
-<a class="service" href="./bill-payments.html"><i>⚡</i><b>KSEB electricity</b><small>Official quick-pay link</small></a>
-<a class="service" href="./bill-payments.html"><i>💧</i><b>Water bill</b><small>Kerala Water Authority</small></a>
-<a class="service" href="./recharge-mvp.html"><i>🔥</i><b>LPG gas</b><small>Indane · Bharat · HP</small></a>
-<a class="service" href="./recharge-mvp.html"><i>🌐</i><b>Broadband</b><small>JioFiber · Airtel · BSNL</small></a>
-<a class="service" href="./recharge-mvp.html"><i>🚘</i><b>FASTag</b><small>Top-up demo</small></a>
-<a class="service" href="./recharge-mvp.html"><i>☎️</i><b>Landline</b><small>Bill-pay demo</small></a>
+:root{--lime:#d7ff32;--lime2:#b9e927;--bg:#080909;--surface:#121411;--surface2:#1b1e18;--stroke:#2a2d25;--muted:#9a9d91}
+body{background:#080909!important;color:#f6f7f0!important}
+.app{max-width:1180px;margin:auto;padding:22px 26px 100px}
+.topbar{height:66px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #20221d;margin-bottom:25px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:.1em;font-size:.88rem}
+.brand-mark{width:38px;height:38px;border-radius:13px;background:var(--lime);color:#15180c;display:grid;place-items:center;font-weight:1000}
+.topright{display:flex;align-items:center;gap:10px}.avatar{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#e9d0a4,#75563c);display:grid;place-items:center;color:#21180f;font-weight:800}
+.round{width:38px;height:38px;border-radius:50%;background:#191b17;border:1px solid #30332b;display:grid;place-items:center;color:#eee}
+.layout{display:grid;grid-template-columns:205px minmax(0,1fr) 275px;gap:22px;align-items:start}
+.side{position:sticky;top:20px}.profile{display:flex;gap:10px;align-items:center;padding:12px 4px 22px}.profile small,.muted{color:var(--muted)}
+.navitem{display:flex;gap:12px;align-items:center;padding:12px 13px;border-radius:13px;color:#c8cabe;text-decoration:none;margin:4px 0;font-size:.92rem}
+.navitem.active{background:var(--lime);color:#171a0c;font-weight:800}.navitem span:first-child{width:22px;text-align:center}
+.side-note{margin-top:24px;padding:14px;border:1px solid var(--stroke);background:#11130f;border-radius:16px;font-size:.8rem;color:var(--muted)}
+h1{font-size:1.8rem;letter-spacing:-.05em;margin:0}h2{font-size:1.02rem;letter-spacing:-.02em;margin:0}
+.subhead{display:flex;align-items:center;justify-content:space-between;margin:0 0 13px}
+.tabs{display:flex;gap:7px;margin:18px 0 22px;overflow:auto}.tab{border:1px solid #2b2e26;background:#11130f;color:#bfc2b4;padding:9px 15px;border-radius:99px;text-decoration:none;white-space:nowrap;font-size:.82rem}.tab.active{background:var(--lime);color:#171a0c;border-color:var(--lime);font-weight:800}
+.balance{background:var(--lime);color:#171a0c;border-radius:24px;padding:23px 23px 20px;min-height:178px;position:relative;overflow:hidden}
+.balance:after{content:"";position:absolute;width:180px;height:180px;border:1px solid #171a0c22;border-radius:50%;right:-65px;top:-95px;box-shadow:0 0 0 24px #171a0c0a,0 0 0 48px #171a0c08}
+.balance .label{font-size:.78rem;font-weight:700;opacity:.75}.amount{font-size:2.45rem;font-weight:850;letter-spacing:-.07em;margin:5px 0 0}.balance small{color:#343b1a}
+.balance-actions{display:flex;gap:9px;margin-top:18px}.balance-actions a{background:#171a0c;color:#f4f5e8;text-decoration:none;padding:10px 16px;border-radius:99px;font-size:.78rem;font-weight:700}.balance-actions a.alt{background:#efff9d;color:#171a0c}
+.panel{background:#121410;border:1px solid #292c24;border-radius:20px;padding:17px;margin-top:16px}
+.servicegrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.service{display:flex;flex-direction:column;gap:9px;align-items:flex-start;padding:14px 12px;border:1px solid #292c24;background:#171a15;border-radius:16px;color:#f2f3e9;text-decoration:none;min-height:94px}
+.service:hover{border-color:var(--lime);transform:translateY(-2px)}.service .ico{width:32px;height:32px;display:grid;place-items:center;background:#25291d;border-radius:11px;font-size:1.05rem}.service b{font-size:.78rem;line-height:1.25}
+.listrow{display:flex;align-items:center;gap:11px;padding:12px 0;border-bottom:1px solid #252820}.listrow:last-child{border:0}.listicon{width:38px;height:38px;border-radius:13px;background:#25291d;display:grid;place-items:center;font-size:1.1rem}.listrow b{font-size:.86rem}.listrow small{display:block;color:var(--muted);font-size:.73rem}
+.arrow{margin-left:auto;color:#c7cbba}
+.right .panel{margin-top:0;margin-bottom:14px}.mini-stat{font-size:1.65rem;font-weight:800;letter-spacing:-.04em;margin:9px 0 0}.chart{width:100%;height:142px;margin-top:12px;display:block}.chart-label{display:flex;justify-content:space-between;color:#9da092;font-size:.68rem}
+.pill{display:inline-flex;border:1px solid #39432a;border-radius:99px;color:var(--lime);background:#1a2011;padding:5px 9px;font-size:.68rem}
+.notice{background:#1b1d13;border:1px solid #3c4028;border-radius:14px;padding:12px;color:#c7c9b9;font-size:.74rem;line-height:1.45}
+.bottom{display:none}
+@media(max-width:900px){.layout{grid-template-columns:180px minmax(0,1fr)}.right{grid-column:2;display:grid;grid-template-columns:1fr 1fr;gap:12px}.right .panel{margin:0}.right .notice{grid-column:1/-1}}
+@media(max-width:650px){.app{padding:0 16px 100px}.topbar{height:62px;margin-bottom:22px}.layout{display:block}.side{display:none}.right{display:block;margin-top:14px}.right .panel{margin-bottom:12px}.servicegrid{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}.service{min-height:86px;padding:10px 8px}.service b{font-size:.68rem}.service .ico{width:29px;height:29px}.balance{padding:20px;min-height:168px}.amount{font-size:2.25rem}.bottom{display:flex;position:fixed;z-index:10;bottom:10px;left:12px;right:12px;background:#171914f2;border:1px solid #34382b;border-radius:23px;padding:8px;justify-content:space-around;backdrop-filter:blur(16px);box-shadow:0 12px 35px #000b}.bottom a{width:48px;height:44px;display:grid;place-items:center;border-radius:15px;color:#d4d7c9;text-decoration:none}.bottom a.active{background:var(--lime);color:#171a0c}.subhead{margin-bottom:12px}}
+@media(max-width:370px){.servicegrid{grid-template-columns:repeat(2,minmax(0,1fr))}.service{min-height:75px}}
+</style>
+</head>
+<body>
+<div class="app">
+<header class="topbar"><div class="brand"><span class="brand-mark">FC</span><span>FICTION CLUB</span></div><div class="topright"><span class="pill">DEMO</span><span class="round">⌕</span><span class="round">♧</span><span class="avatar">F</span></div></header>
+<div class="layout">
+<aside class="side">
+<div class="profile"><span class="avatar">F</span><div><b>Welcome back</b><br><small>Kerala Pay demo</small></div></div>
+<a class="navitem active" href="./index.html"><span>⌂</span> Home</a>
+<a class="navitem" href="./recharge-mvp.html"><span>↗</span> Pay & recharge</a>
+<a class="navitem" href="./bill-payments.html"><span>▤</span> Bill payments</a>
+<a class="navitem" href="./credit-cards.html"><span>▣</span> Credit cards</a>
+<a class="navitem" href="./gromo-links.html"><span>◫</span> Finance offers</a>
+<a class="navitem" href="./login.html"><span>◉</span> My account</a>
+<div class="side-note">FICTION CLUB<br><b style="color:#f2f3e9">Kerala-first services</b><br><br>Preview environment. No real payments are processed.</div>
+</aside>
+<main>
+<div class="subhead"><div><div class="muted" style="font-size:.76rem;margin-bottom:4px">TUESDAY · KERALA, INDIA</div><h1>Home</h1></div><span class="pill">Preview mode</span></div>
+<div class="tabs"><a class="tab active" href="./index.html">Overview</a><a class="tab" href="./credit-cards.html">Cards</a><a class="tab" href="./gromo-links.html">Finance</a><a class="tab" href="./bill-payments.html">Bills</a></div>
+<section class="balance"><div class="label">TOTAL BALANCE · DEMO</div><div class="amount">₹ — — —</div><small>Connect a verified account to see balances</small><div class="balance-actions"><a href="./recharge-mvp.html">＋ Pay now</a><a class="alt" href="./bill-payments.html">View bills ↗</a></div></section>
+<section class="panel"><div class="subhead"><h2>Quick services</h2><span class="muted" style="font-size:.72rem">Explore</span></div><div class="servicegrid">
+<a class="service" href="./recharge-mvp.html"><span class="ico">▣</span><b>Mobile</b></a>
+<a class="service" href="./recharge-mvp.html"><span class="ico">▤</span><b>DTH</b></a>
+<a class="service" href="./bill-payments.html"><span class="ico">ϟ</span><b>Electricity</b></a>
+<a class="service" href="./bill-payments.html"><span class="ico">◉</span><b>Water</b></a>
+<a class="service" href="./recharge-mvp.html"><span class="ico">♨</span><b>LPG gas</b></a>
+<a class="service" href="./recharge-mvp.html"><span class="ico">⌁</span><b>Broadband</b></a>
+<a class="service" href="./recharge-mvp.html"><span class="ico">▱</span><b>FASTag</b></a>
+<a class="service" href="./bill-payments.html"><span class="ico">＋</span><b>All bills</b></a>
 </div></section>
-<section class="section"><div class="section-head"><h2>Financial products</h2><span class="meta">Partner directory</span></div><div class="services">
-<a class="service" href="./credit-cards.html"><i>💳</i><b>Credit cards</b><small>38 cards · compare & shortlist</small></a>
-<a class="service" href="./gromo-links.html?category=Savings%20accounts"><i>🏦</i><b>Savings accounts</b><small>5 partner listings</small></a>
-<a class="service" href="./gromo-links.html?category=Personal%20loans"><i>👤</i><b>Personal loans</b><small>30 listings</small></a>
-<a class="service" href="./gromo-links.html?category=Business%20loans"><i>🏢</i><b>Business finance</b><small>Business loan offers</small></a>
-<a class="service" href="./gromo-links.html?category=Demat%20%26%20investing"><i>📈</i><b>Demat & investing</b><small>9 listings</small></a>
-<a class="service" href="./gromo-links.html"><i>🔎</i><b>All partner offers</b><small>Browse 87 source links</small></a>
-</div></section>
-<section class="section"><div class="section-head"><h2>Project status</h2><span class="meta">Transparent demo</span></div><div class="stats"><div class="stat"><b>87</b><small>Partner links</small></div><div class="stat"><b>38</b><small>Credit cards</small></div><div class="stat"><b>0</b><small>Live payment APIs</small></div></div><div class="card" style="padding:17px"><b style="color:var(--gold)">Partner verification pending</b><p class="note" style="margin:6px 0 0">The supplied GroMo audit marks all 87 links as unverified. Commission, approval and promotion permissions are not confirmed. No offer is labelled approved.</p><a class="btn" style="margin-top:12px" href="./gromo-links.html">Review partner register →</a></div></section>
-<section class="section"><div class="section-head"><h2>Quick access</h2><span class="meta">Demo tools</span></div><div class="quick"><a class="btn" href="./login.html">Account & login</a><a class="btn" href="./recharge-mvp.html">Recharge simulator</a><a class="btn" href="./bill-payments.html">Official bill portals</a><a class="btn" href="./credit-cards.html">Card comparison</a><a class="btn" href="./gromo-links.html">Partner audit</a></div></section>
-<footer class="foot"><b>FICTION CLUB</b><p class="note">Demo only. No live BBPS, bill fetch, recharge, payment collection, UPI mandate or AutoPay is active. Firebase sign-in needs separate demo credentials. Production domain, hosting and AdSense setup are untouched.</p><span class="meta">Kerala · India</span></footer>
-</main></body></html>
+<section class="panel"><div class="subhead"><h2>Financial products</h2><a class="muted" style="font-size:.72rem" href="./gromo-links.html">See all ↗</a></div>
+<a class="listrow" href="./credit-cards.html" style="color:inherit;text-decoration:none"><span class="listicon">▣</span><span><b>Credit cards</b><small>Compare 38 card listings</small></span><span class="arrow">›</span></a>
+<a class="listrow" href="./gromo-links.html?category=Savings%20accounts" style="color:inherit;text-decoration:none"><span class="listicon">◉</span><span><b>Savings accounts</b><small>Explore partner listings</small></span><span class="arrow">›</span></a>
+<a class="listrow" href="./gromo-links.html?category=Personal%20loans" style="color:inherit;text-decoration:none"><span class="listicon">↗</span><span><b>Personal loans</b><small>Browse available listings</small></span><span class="arrow">›</span></a>
+<a class="listrow" href="./gromo-links.html?category=Business%20loans" style="color:inherit;text-decoration:none"><span class="listicon">⌂</span><span><b>Business finance</b><small>Loan and business listings</small></span><span class="arrow">›</span></a>
+</section>
+</main>
+<aside class="right">
+<section class="panel"><div class="subhead"><h2>Analytics</h2><span class="pill">Sample</span></div><div class="muted" style="font-size:.73rem">Monthly activity</div><div class="mini-stat">—</div><svg class="chart" viewBox="0 0 260 142" role="img" aria-label="Illustrative sample activity chart"><path d="M5 120H255" stroke="#34382d" fill="none"/><path d="M5 96 L28 82 L48 91 L68 53 L88 70 L108 36 L128 59 L148 47 L168 78 L188 54 L208 64 L228 25 L255 39" stroke="#d7ff32" stroke-width="2.5" fill="none"/><path d="M5 96 L28 82 L48 91 L68 53 L88 70 L108 36 L128 59 L148 47 L168 78 L188 54 L208 64 L228 25 L255 39 L255 132 L5 132Z" fill="#d7ff32" opacity=".07"/><g fill="#d7ff32"><circle cx="68" cy="53" r="3"/><circle cx="108" cy="36" r="3"/><circle cx="168" cy="78" r="3"/><circle cx="228" cy="25" r="3"/></g></svg><div class="chart-label"><span>1 Nov</span><span>15 Nov</span><span>30 Nov</span></div></section>
+<section class="panel"><div class="subhead"><h2>My shortcuts</h2><span class="muted">＋</span></div><a class="listrow" href="./recharge-mvp.html" style="color:inherit;text-decoration:none"><span class="listicon">ϟ</span><span><b>Start a recharge</b><small>Try the demo flow</small></span><span class="arrow">›</span></a><a class="listrow" href="./login.html" style="color:inherit;text-decoration:none"><span class="listicon">◎</span><span><b>Sign in</b><small>Account access</small></span><span class="arrow">›</span></a></section>
+<div class="notice"><b style="color:#e8efcf">Demo transparency</b><br>Payment and balance data are not live. Partner listings are not yet verified; no commission or approval is claimed.</div>
+</aside>
+</div>
+<nav class="bottom"><a class="active" href="./index.html">⌂</a><a href="./recharge-mvp.html">ϟ</a><a href="./bill-payments.html">▤</a><a href="./credit-cards.html">▣</a><a href="./login.html">◎</a></nav>
+</div>
+</body></html>
