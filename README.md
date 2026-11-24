@@ -1,27 +1,24 @@
 # FICTION CLUB — isolated demo
 
-This repository contains a development-only FICTION CLUB Kerala Pay and financial-products demo.
+A mobile-first Kerala digital-services and financial-products preview. The UI uses a near-black app-style theme with compact navigation and icon tiles.
 
 ## Preview
-
-The intended GitHub Pages URL is:
-
 https://shafiintj-source.github.io/fictionclub-demo/
 
-Enable **Settings → Pages → Build and deployment → GitHub Actions** if Pages is not already enabled. The workflow in `.github/workflows/pages.yml` deploys this repository only.
-
-## Important limitations
-
-- This is a demonstration, not a live payment or BBPS service.
-- No real recharge, bill fetch, payment collection, mandate or AutoPay is active.
-- All 87 GroMo links remain unverified in the supplied audit source; do not describe them as approved or commissionable.
-- Firebase Authentication is not configured yet. `firebase-config.js` contains empty placeholders, so phone OTP, email/password and Google sign-in will not work until the isolated demo Firebase web-app configuration and provider/domain settings are supplied.
-- This repository is separate from the production `fictionclub.in` website. Do not connect a production domain or production Firebase project to this demo.
+If the preview is not live yet, enable **Settings → Pages → Build and deployment → GitHub Actions**. The workflow in `.github/workflows/pages.yml` deploys this repository only.
 
 ## Pages
-
-- `index.html` — demo home
+- `index.html` — compact dashboard
 - `recharge-mvp.html` — simulated Kerala Pay flow
-- `login.html` — Firebase sign-in UI (configuration required)
-- `credit-cards.html` — credit-card directory
+- `bill-payments.html` — official provider portals
+- `credit-cards.html` — 38-card directory
 - `gromo-links.html` — 87-link audit register
+- `login.html` — Firebase sign-in UI (configuration required)
+
+## Important status
+- No live BBPS, bill fetch, recharge, payment collection, UPI mandate or AutoPay.
+- All 87 GroMo rows in the supplied source are marked Verified = No; approval and commission are not confirmed.
+- Firebase config is intentionally blank in `firebase-config.js`; login needs a separate demo Firebase project and provider/domain setup.
+- Production `fictionclub.in`, production Firebase and AdSense are separate and must remain unchanged.
+
+See [PROJECT-CONTEXT.md](./PROJECT-CONTEXT.md) for the organized product scope, source facts, file map and backlog.
