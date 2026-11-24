@@ -1,0 +1,47 @@
+/* FICTION CLUB compact fintech app skin */
+:root{color-scheme:dark;--fc-bg:#090a08;--fc-panel:#171914;--fc-panel2:#20231b;--fc-line:#303329;--fc-lime:#d7ff32;--fc-muted:#a4a696}
+html,body{background:var(--fc-bg)!important;color:#f5f6ed!important}
+body{font-family:Inter,system-ui,-apple-system,sans-serif!important;font-size:14px!important;line-height:1.42!important;letter-spacing:0!important}
+.wrap{max-width:1080px!important;margin:0 auto!important;padding:16px 18px 100px!important}
+.fc-app-header{height:62px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #25271f;margin-bottom:18px}
+.fc-brand{display:flex;align-items:center;gap:9px;font-size:.78rem;font-weight:900;letter-spacing:.1em;color:#f5f6ed;text-decoration:none}
+.fc-brand-mark{width:35px;height:35px;border-radius:12px;background:var(--fc-lime);color:#171a0e;display:grid;place-items:center;font-weight:1000}
+.fc-head-actions{display:flex;align-items:center;gap:8px}.fc-head-actions a,.fc-head-actions span{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:#1a1c17;border:1px solid #34372c;color:#eee;text-decoration:none;font-size:.85rem}
+.fc-bottom-nav{display:none}
+.fc-bottom-nav a{width:46px;height:42px;display:grid;place-items:center;border-radius:14px;text-decoration:none;color:#d5d8c9;font-size:1.12rem}
+.fc-bottom-nav a.active{background:var(--fc-lime);color:#171a0d}
+h1{font-size:1.55rem!important;line-height:1.15!important;letter-spacing:-.045em!important;margin:10px 0!important}
+h2{font-size:1rem!important;letter-spacing:-.02em!important;margin:0 0 10px!important}
+h3{font-size:.9rem!important}
+p{margin:.35rem 0 .7rem}
+.muted,.note,small{color:var(--fc-muted)!important}
+.card,.panel,.stat,.compare,.compareItem,.service,.statusCard,.shell{background:#151711!important;border:1px solid var(--fc-line)!important;border-radius:19px!important;box-shadow:none!important}
+input,select,textarea,.field{background:#0d0f0b!important;color:#f5f6ed!important;border:1px solid #383b30!important;border-radius:12px!important;padding:12px!important}
+button,.btn{border-radius:13px!important;background:#25281f!important;color:#f5f6ed!important;border:1px solid #3a3d30!important;font-weight:750!important;box-shadow:none!important}
+button.primary,.btn.primary,.primary{background:var(--fc-lime)!important;color:#15180d!important;border-color:var(--fc-lime)!important}
+a{color:var(--fc-lime)}
+.notice,.banner{background:#1c1e16!important;border:1px solid #393d2c!important;color:#cbd0b8!important;border-radius:13px!important}
+table{border-color:#303329!important}
+th{background:#20231b!important;color:var(--fc-lime)!important}
+td,th{border-color:#303329!important}
+.tag,.pill{border-color:#41462e!important;background:#1d2115!important;color:var(--fc-lime)!important}
+.hero{padding:14px 0!important}
+.hero p{display:none!important}
+.foot,footer{font-size:.72rem!important;color:#838778!important}
+@media(max-width:680px){
+ .wrap{padding:12px 14px 100px!important}
+ .fc-app-header{margin-bottom:15px;height:56px}
+ .fc-bottom-nav{display:flex;position:fixed;z-index:99;bottom:9px;left:12px;right:12px;justify-content:space-around;align-items:center;background:#1a1c17f2;border:1px solid #393c30;border-radius:22px;padding:7px;backdrop-filter:blur(18px);box-shadow:0 12px 36px #000b}
+ .grid,.services{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}
+ .panel,.card{padding:15px!important;margin:12px 0!important}
+ .hero{padding:7px 0!important}
+ .hero h1{font-size:1.55rem!important}
+ .stats{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:7px!important}
+ .stat{padding:10px!important}
+ .toolbar{grid-template-columns:1fr 1fr!important}
+ .toolbar>*:first-child{grid-column:1/-1}
+ .shell{display:block!important;min-height:0!important}
+ .story{display:none!important}
+ .panel{padding:18px!important}
+ .notice{font-size:.75rem!important;padding:10px!important}
+}
