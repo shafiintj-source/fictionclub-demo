@@ -1,0 +1,13 @@
+{
+  "name": "FICTION CLUB — Kerala Pay",
+  "short_name": "FICTION CLUB",
+  "description": "Kerala-first payments and financial services demo",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#050608",
+  "theme_color": "#050608",
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
