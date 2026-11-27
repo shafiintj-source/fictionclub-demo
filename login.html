@@ -25,7 +25,7 @@
 (()=> {
  const $=id=>document.getElementById(id), tabs=[...document.querySelectorAll('.tab')], methods=[...document.querySelectorAll('.method')], msg=$('message'), notice=$('authNotice');
  let confirmation=null, verifier=null, auth=null;
- const isValidEmail=email=>/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email);
+ const isValidEmail=email=>/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
  function say(t, bad=false){msg.textContent=t;msg.classList.add('show');msg.style.borderColor=bad?'#a84b4b':'';msg.style.color=bad?'#ffaaa4':''}
  function configReady(){const c=window.FIREBASE_CONFIG;return !!(c&&c.apiKey&&c.authDomain&&c.projectId&&c.appId&&!Object.values(c).some(v=>typeof v==='string'&&v.includes('PASTE_')))}
  function init(){if(!configReady()){notice.innerHTML='<b>Firebase configuration required.</b> Phone, email and Google authentication code is installed, but the demo Firebase web config has not been supplied. Sign-in is unavailable until this is configured.';return false}
